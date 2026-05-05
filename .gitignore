@@ -1,15 +1,1 @@
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Diagnostické a pomocné skripty
-verify_*.py
-batch_*.py
-debug_*.py
-translate_*.py
-test_*.py
-
-# Zálohy a logy
-*.bak
-*.log
-*.tmp
+Nothing should be ignored based on the provided file changes. The added and modified files are all source/config files (.py, .json) without any build artifacts, dependencies, or temporary files that would warrant adding ignore rules.
