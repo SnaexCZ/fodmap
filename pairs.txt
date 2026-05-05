@@ -1,0 +1,978 @@
+Baked snack, gluten free, Grissini Sesame, organic, Schnitzer ===> Pečená svačina, bezlepková, Grissini Sesame, bio, Schnitzer
+Baked snack, gluten free, Muffin Schoko, dark chocolate, organic, Schnitzer ===> Pečená svačina, bezlepková, Muffin Schoko, hořká čokoláda, bio, Schnitzer
+Bread, Authentic Wheat Sourdough Bread, The Pocket Storehouse ===> Chléb, autentický pšeničný kváskový chléb, kapesní sklad
+Bread, gluten free, Baguette Classic, organic, Schnitzer ===> Chléb, bezlepkový, Baguette Classic, bio, Schnitzer
+Bread, gluten free, Baguette Grainy, organic, Schnitzer ===> Chléb, bezlepkový, bageta zrnitá, bio, řízek
+Bread, gluten free, Baguette Rustic, organic, Schnitzer ===> Chléb, bezlepkový, Bageta Rustikální, BIO, Schnitzer
+Bread, gluten free, Brot Classic, organic, Schnitzer ===> Chléb, bezlepkový, Brot Classic, bio, Schnitzer
+Bread, gluten free, Brot Rustic, organic, Schnitzer ===> Chléb, bezlepkový, Brot Rustic, bio, Schnitzer
+Bread, gluten free, Burger Buns, organic, Schnitzer ===> Chléb, bezlepkový, Burger Buns, bio, Schnitzer
+Bread, gluten free, Panini Classic, organic, Schnitzer ===> Chléb, bezlepkový, Panini Classic, bio, Schnitzer
+Bread, gluten free, Panini Grainy, organic, Schnitzer ===> Chléb, bezlepkový, Panini Grainy, bio, Schnitzer
+Bread, gluten free, Panini Oats, organic, Schnitzer ===> Chléb, bezlepkový, Panini Oats, bio, Schnitzer
+Bread, gluten free, Sourdough Bread with Chia &amp; Quinoa, organic, Schnitzer ===> Chléb, bezlepkový, kváskový chléb s Chia & Quinoa, bio, Schnitzer
+Bread, gluten free, Super Panini Rustic, organic, Schnitzer ===> Chléb, bezlepkový, Super Panini Rustic, bio, Schnitzer
+Dietary fibre, Nutriose® FB 06, soluble wheat fiber, Roquette ===> Dietní vláknina, Nutriose® FB 06, rozpustná pšeničná vláknina, Roquette
+Dietary fibre, Nutriose® FB 10, soluble wheat fiber, Roquette ===> Dietní vláknina, Nutriose® FB 10, rozpustná pšeničná vláknina, Roquette
+Dietary fibre, Nutriose® FM 06, soluble corn fiber, Roquette ===> Dietní vláknina, Nutriose® FM 06, rozpustná kukuřičná vláknina, Roquette
+Dietary fibre, Nutriose® FM 10, soluble corn fiber, Roquette ===> Dietní vláknina, Nutriose® FM 10, rozpustná kukuřičná vláknina, Roquette
+Dietary fibre, Nutriose® FM 15S, soluble corn fiber, Roquette ===> Dietní vláknina, Nutriose® FM 15S, rozpustná kukuřičná vláknina, Roquette
+Dietary fibre, Nutriose® FM HF2, soluble corn fiber, Roquette ===> Dietní vláknina, Nutriose® FM HF2, rozpustná kukuřičná vláknina, Roquette
+Dietary fibre, Nutriose® Pea 06, soluble pea fiber, Roquette ===> Dietní vláknina, Nutriose® Pea 06, rozpustná hrachová vláknina, Roquette
+Dietary fibre, Nutriose® Pea 10, soluble pea fiber, Roquette ===> Dietní vláknina, Nutriose® Pea 10, rozpustná hrachová vláknina, Roquette
+Dietary fibre, Partially Hydrolyzed Guar Gum (PHGG), Fibalance, Zymebase Inc. ===> Dietní vláknina, částečně hydrolyzovaná guarová guma (PHGG), Fibalance, Zymebase Inc.
+Dietary supplement, Performance Protein, Chocolate, Healthyroo ===> Doplněk stravy, Performance Protein, Čokoláda, Healthyroo
+Enzyme supplement, FODZYME® 60 Dose Home Kit, Kiwi Biosciences ===> Enzymový doplněk, FODZYME® 60 Dose Home Kit, Kiwi Biosciences
+Enzyme supplement, FODZYME® On-The-Go Sachets, Kiwi Biosciences ===> Enzymový doplněk, FODZYME® On-The-Go Sachets, Kiwi Biosciences
+Flour, gluten free, Mix-It Universal All Purpose Flour, Schär ===> Mouka, bezlepková, Mix-It Universal All Purpose Flour, Schär
+Kiwifruit, Green Kiwifruit, Zespri™ ===> Kiwi, zelené kiwi, Zespri™
+Kiwifruit, SunGold Kiwifruit, Zespri™ ===> Kiwi, SunGold Kiwi, Zespri™
+Protein powder, Raw Collagen Plus, Choc Hazelnut, Amazonia ===> Proteinový prášek, Raw Collagen Plus, Choc Hazelnut, Amazonia
+Protein powder, Raw Collagen Plus, Vanilla Maple, Amazonia ===> Proteinový prášek, Raw Collagen Plus, Vanilla Maple, Amazonia
+Protein powder, Raw Daily Nourish, Chocolate, Amazonia ===> Proteinový prášek, Raw Daily Nourish, Čokoláda, Amazonie
+Protein powder, Raw Daily Nourish, Vanilla, Amazonia ===> Proteinový prášek, Raw Daily Nourish, Vanilka, Amazonie
+Protein powder, Raw Gentle Digest, Chocolate, Amazonia ===> Proteinový prášek, Raw Gentle Digest, Čokoláda, Amazonie
+Protein powder, Raw Gentle Digest, Vanilla, Amazonia ===> Proteinový prášek, Raw Gentle Digest, Vanilka, Amazonie
+Protein powder, Raw Protein Isolate, Choc Coconut, Amazonia ===> Proteinový prášek, surový proteinový izolát, čokoládový kokos, Amazonie
+Protein powder, Raw Protein Isolate, Natural, Amazonia ===> Proteinový prášek, surový proteinový izolát, přírodní, Amazonie
+Protein powder, Raw Protein Isolate, Vanilla, Amazonia ===> Proteinový prášek, surový proteinový izolát, vanilka, Amazonie
+Protein powder, Raw Slim &amp; Tone, Triple Chocolate, Amazonia ===> Proteinový prášek, Raw Slim & Co. Tón, trojitá čokoláda, Amazonie
+Protein powder, Raw Slim &amp; Tone, Vanilla Cinnamon, Amazonia ===> Proteinový prášek, Raw Slim & Co. Tón, vanilka, skořice, Amazonie
+Protein powder, Springer® Proteissimo™ 102, Biospringer ===> Proteinový prášek, Springer® Proteissimo™ 102, Biospringer
+Supplement powder, Fibriotics® AF+, Fermedics ===> Doplněk prášku, Fibriotics® AF+, Fermedics
+Supplement powder, SloIron® - GM5, SloIron ===> Doplněk prášku, SloIron® - GM5, SloIron
+Supplement powder, SloIron® - PS5, SloIron ===> Doplněk prášku, SloIron® - PS5, SloIron
+Almond meal ===> Mandlové jídlo
+Baking powder ===> Prášek do pečiva
+Bran, oat, unprocessed, uncooked ===> Otruby, oves, nezpracované, nevařené
+Bran, rice, unprocessed, uncooked ===> Otruby, rýže, nezpracované, nevařené
+Bran, wheat, processed, uncooked ===> Otruby, pšenice, zpracované, tepelně neupravené
+Bran, wheat, unprocessed, uncooked ===> Otruby, pšenice, nezpracované, nevařené
+Bread crumbs, Panko ===> Strouhanka, Panko
+Bread, Authentic Wheat Sourdough Bread, The Pocket Storehouse ===> Chléb, autentický pšeničný kváskový chléb, kapesní sklad
+Bread, English / Breakfast muffins (wheat and soy) ===> Chléb, anglické / snídaňové muffiny (pšenice a sója)
+Bread, gluten free (rice and chia) ===> Chléb, bez lepku (rýže a chia)
+Bread, gluten free (rice, corn, tapioca) ===> Chléb, bez lepku (rýže, kukuřice, tapioka)
+Bread, gluten free, Baguette Classic, organic, Schnitzer ===> Chléb, bezlepkový, Baguette Classic, bio, Schnitzer
+Bread, gluten free, Baguette Grainy, organic, Schnitzer ===> Chléb, bezlepkový, bageta zrnitá, bio, řízek
+Bread, gluten free, Baguette Rustic, organic, Schnitzer ===> Chléb, bezlepkový, Bageta Rustikální, BIO, Schnitzer
+Bread, gluten free, Brot Classic, organic, Schnitzer ===> Chléb, bezlepkový, Brot Classic, bio, Schnitzer
+Bread, gluten free, Brot Rustic, organic, Schnitzer ===> Chléb, bezlepkový, Brot Rustic, bio, Schnitzer
+Bread, gluten free, low GI, high fibre ===> Chléb, bezlepkový, nízký GI, vysoký obsah vlákniny
+Bread, gluten free, mixed grain / multigrain ===> Chléb, bezlepkový, smíšený / vícezrnný
+Bread, gluten free, Panini Classic, organic, Schnitzer ===> Chléb, bezlepkový, Panini Classic, bio, Schnitzer
+Bread, gluten free, Panini Grainy, organic, Schnitzer ===> Chléb, bezlepkový, Panini Grainy, bio, Schnitzer
+Bread, kamut, wholemeal, sourdough ===> Chléb, kamut, celozrnný, kynutý
+Bread, Naan / Roti ===> Chléb, Naan / Roti
+Bread, oat, sourdough ===> Chléb, oves, kvásek
+Bread, pumpernickel ===> Chléb, pumpernickel
+Bread, rye ===> Chléb, žito
+Bread, rye, dark ===> Chléb, žito, tmavé
+Bread, rye, light, sourdough ===> Chléb, žito, světlý, kváskový
+Bread, spelt, sourdough ===> Chléb, špalda, kvásek
+Bread, wheat, mixed grain / multigrain ===> Chléb, pšenice, smíšená zrna / vícezrnná
+Bread, wheat, raisin / fruit ===> Chléb, pšenice, rozinky / ovoce
+Bread, wheat, white ===> Chléb, pšenice, bílá
+Bread, wheat, wholegrain ===> Chléb, pšenice, celozrnné
+Bread, wheat, wholemeal ===> Chléb, pšenice, celozrnné
+Breakfast cereal, flakes of corn ===> Snídaňové cereálie, kukuřičné vločky
+Breakfast cereal, flakes of wheat, corn, rice and oats (contains dried fruit and nuts) ===> Snídaňové cereálie, pšeničné, kukuřičné, rýžové a ovesné vločky (obsahuje sušené ovoce a ořechy)
+Breakfast cereal, gluten free, flakes of corn ===> Snídaňové cereálie, bezlepkové, kukuřičné vločky
+Breakfast cereal, muesli (free from gluten, dairy and nuts) ===> Snídaňové cereálie, müsli (bez lepku, mléčných výrobků a ořechů)
+Breakfast cereal, muesli (free from yeast and wheat) ===> Snídaňové cereálie, müsli (bez droždí a pšenice)
+Breakfast cereal, muesli, plain ===> Snídaňové cereálie, müsli, hladké
+Breakfast cereal, puffed or popped rice ===> Snídaňové cereálie, pufovaná nebo popučená rýže
+Breakfast cereal, wheat bran, pellets ===> Snídaňové cereálie, pšeničné otruby, pelety
+Breakfast cereal, whole wheat, biscuit ===> Snídaňové cereálie, celozrnná pšenice, sušenka
+Couscous, gluten free (maize / corn), cooked ===> Kuskus, bezlepkový (kukuřice / kukuřice), vařený
+Couscous, gluten free (rice and corn), cooked ===> Kuskus, bezlepkový (rýže a kukuřice), vařený
+Couscous, wheat, cooked ===> Kuskus, pšenice, vařený
+Flakes, barley, uncooked ===> Vločky, ječné, tepelně neupravené
+Flakes, buckwheat, cooked ===> Vločky, pohanka, vařené
+Flakes, quinoa, uncooked ===> Vločky, quinoa, tepelně neupravené
+Flakes, rice, uncooked ===> Vločky, rýže, nevařené
+Flakes, spelt, uncooked ===> Vločky, špaldové, tepelně neupravené
+Flour, amaranth ===> Mouka, amarant
+Flour, arrowroot ===> Mouka, šípek
+Flour, barley ===> Mouka, ječmen
+Flour, besan / chickpea / gram ===> Mouka, besan / cizrna / gram
+Flour, buckwheat ===> Mouka, pohanka
+Flour, buckwheat, wholemeal ===> Mouka, pohanka, celozrnná
+Flour, cassava ===> Mouka, maniok
+Flour, chestnut ===> Mouka, kaštan
+Flour, coconut ===> Mouka, kokos
+Flour, corn, masa harina / masa lista ===> Mouka, kukuřice, masa harina / masa lista
+Flour, einkorn ===> Mouka, jednozrnka
+Flour, einkorn, organic ===> Mouka, jednozrnka, bio
+Flour, emmer ===> Mouka, emmer
+Flour, gluten free, Mix-It Universal All Purpose Flour, Schär ===> Mouka, bezlepková, Mix-It Universal All Purpose Flour, Schär
+Flour, gluten free, plain ===> Mouka, bezlepková, hladká
+Flour, glutinous rice ===> Mouka, lepkavá rýže
+Flour, green banana ===> Mouka, zelený banán
+Flour, khorasan / kamut, wholewheat ===> Mouka, khorasan / kamut, celozrnná
+Flour, lupin ===> Mouka, lupina
+Flour, maize / cornflour / corn starch ===> Mouka, kukuřičná / kukuřičná mouka / kukuřičný škrob
+Flour, maize / cornmeal ===> Mouka, kukuřičná/kukuřičná mouka
+Flour, millet ===> Mouka, jáhly
+Flour, oat ===> Mouka, oves
+Flour, quinoa ===> Mouka, quinoa
+Flour, rice ===> Mouka, rýže
+Flour, rice, brown ===> Mouka, rýže, hnědá
+Flour, rice, roasted ===> Mouka, rýže, pražená
+Flour, rye ===> Mouka, žito
+Flour, sorghum ===> Mouka, čirok
+Flour, soy ===> Mouka, sója
+Flour, spelt, organic ===> Mouka, špalda, bio
+Flour, spelt, organic, sieved (bran removed) ===> Mouka, špaldová, organická, propasírovaná (s odstraněnými otrubami)
+Flour, spelt, white ===> Mouka, špalda, bílá
+Flour, spelt, wholemeal ===> Mouka, špalda, celozrnná
+Flour, teff ===> Mouka, teff
+Flour, vital wheat gluten ===> Mouka, vitální pšeničný lepek
+Flour, wheat ===> Mouka, pšenice
+Flour, yam, pounded ===> Mouka, yam, tlučená
+Grain, amaranth, puffed ===> Obilí, amarant, pufované
+Grain, barley, pearl, cooked ===> Obilí, ječmen, perly, vařené
+Grain, barley, pearl, whole, sprouted ===> Obilí, ječmen, perly, celé, naklíčené
+Grain, buckwheat kernels, cooked ===> Obilí, pohanková jádra, vařené
+Grain, bulgur / burghul / burgaul / cracked wheat, cooked ===> Obilí, bulgur / burghul / burgaul / krakovaná pšenice, vař
+Grain, farro, whole, cooked ===> Obilí, farro, celé, vařené
+Grain, freekeh, cooked ===> Obilí, freekeh, vařené
+Grain, millet, hulled, cooked ===> Obilí, proso, loupané, vařené
+Grain, millet, pearl, cooked ===> Obilí, jáhly, perličky, vařené
+Grain, rye, whole, sprouted ===> Obilí, žito, celé, naklíčené
+Grain, wheat germ, uncooked ===> Obilí, pšeničné klíčky, tepelně neupravené
+Grain, wheat, whole, sprouted ===> Obilí, pšenice, celé, naklíčené
+Hominy, canned, drained ===> Hominy, konzervy, scezené
+Meal, maize / corn, cooked ===> Mouka, kukuřice, vařená
+Noodle, dried thin (with seasoning, starch and oil), cooked ===> Nudle, sušené tenké (s kořením, škrobem a olejem), uvařené
+Noodle, hokkien (wheat), cooked ===> Nudle, hokkien (pšenice), vařené
+Noodle, instant, Jah Jan flavour ===> Nudle, instantní, příchuť Jah Jan
+Noodle, kelp, cooked ===> Nudle, chaluhy, vařené
+Noodle, rice stick, cooked ===> Nudle, rýžová tyčinka, vařené
+Noodle, rice, Hsinchu, cooked ===> Nudle, rýže, Hsinchu, vařené
+Noodle, soba (wheat and buckwheat), cooked ===> Nudle, soba (pšenice a pohanka), vařené
+Noodle, vermicelli (mung bean), cooked ===> Nudle, nudle (mungo fazole), vařené
+Noodle, vermicelli (sweet potato), cooked ===> Nudle, nudle (sladké brambory), vařené
+Noodle, vermicelli, rice, cooked ===> Nudle, nudle, rýže, vařené
+Noodle, vermicelli, wheat (Amoy), cooked ===> Nudle, nudle, pšenice (Amoy), vařené
+Noodle, wheat, instant, cooked ===> Nudle, pšenice, instantní, vařené
+Oats, groats, uncooked ===> Ovesné krupice, tepelně neupravené
+Oats, quick, uncooked ===> Ovesné, rychlé, nevařené
+Oats, rolled, uncooked ===> Ovesné vločky, nevařené
+Pasta, brown rice, cooked ===> Těstoviny, hnědá rýže, vařené
+Pasta, chickpea, cooked ===> Těstoviny, cizrna, vařené
+Pasta, durum wheat, cooked, drained ===> Těstoviny, tvrdá pšenice, vařené, okapané
+Pasta, gluten free (corn and rice flour), cooked ===> Těstoviny, bezlepkové (kukuřičná a rýžová mouka), vařené
+Pasta, gluten free (red lentil flour), cooked ===> Těstoviny, bezlepkové (mouka z červené čočky), vařené
+Pasta, gluten free (soy, corn, rice and potato flour), cooked ===> Těstoviny, bezlepkové (sójová, kukuřičná, rýžová a bramborová mouka), vařené
+Pasta, gnocchi (wheat), cooked ===> Těstoviny, noky (pšenice), vařené
+Pasta, gnocchi, gluten free (potato and rice), cooked ===> Těstoviny, noky, bezlepkové (brambory a rýže), vařené
+Pasta, quinoa, cooked ===> Těstoviny, quinoa, vařené
+Pasta, spelt, cooked ===> Těstoviny špaldové, vařené
+Pastry, Filo / Phyllo, cooked ===> Pečivo, Filo / Phyllo, vařené
+Pastry, puff, cooked ===> Pečivo, listové, vařené
+Pastry, puff, vegan, gluten free, cooked ===> Pečivo, listové, veganské, bezlepkové, vařené
+Polenta / Cornmeal, cooked ===> Polenta / kukuřičná mouka, vařená
+Polenta / Cornmeal, instant, cooked ===> Polenta / Kukuřičná mouka, instantní, vařená
+Porridge, maize, cooked ===> Kaše, kukuřice, vařená
+Quinoa, black, cooked ===> Quinoa, černá, vařená
+Quinoa, red, cooked ===> Quinoa, červená, vařená
+Quinoa, white, cooked ===> Quinoa, bílá, vařená
+Rice paper, soaked ===> Rýžový papír, namočený
+Rice, arborio, cooked ===> Rýže, arborio, vařená
+Rice, basmati, cooked ===> Rýže, basmati, vařená
+Rice, black, cooked ===> Rýže, černá, vařená
+Rice, bomba, cooked ===> Rýže, bomba, vařená
+Rice, brown, cooked ===> Rýže, hnědá, vařená
+Rice, glutinous, cooked ===> Rýže, lepkavá, vařená
+Rice, jasmine, cooked ===> Rýže, jasmín, vařená
+Rice, red, cooked ===> Rýže, červená, vařená
+Rice, white, cooked ===> Rýže, bílá, vařená
+Rice, wild, cooked ===> Rýže, divoká, vařená
+Semolina, fine, uncooked ===> Krupicová kaše, jemná, nevařená
+Starch, potato ===> Škrob, brambory
+Starch, tapioca ===> Škrob, tapioka
+Taco shell, corn, plain, hard ===> Taco shell, kukuřice, obyčejný, tvrdý
+Tapioca / Sago / Sabudana, pearl or seed style, cooked ===> Tapioka / Sago / Sabudana, perlový nebo semínkový styl, vařená
+Tortilla, corn (blue) ===> Tortilla, kukuřice (modrá)
+Tortilla, wheat, white ===> Tortilla, pšenice, bílá
+Wonton wrapper, uncooked ===> Wontonův obal, nevařený
+Yeast, dry / instant ===> Droždí, suché / instantní
+Alfalfa, raw ===> Vojtěška, syrová
+Artichoke heart, canned in brine, drained ===> Artyčokové srdce, konzervované ve slaném nálevu, scezené
+Artichoke, globe, raw ===> Artyčok, zeměkoule, syrové
+Artichoke, Jerusalem, raw ===> Artyčok, Jeruzalém, syrové
+Artichoke, pickled in oil, drained ===> Artyčok, naložený v oleji, okapaný
+Asparagus, green, raw ===> Chřest, zelený, syrové
+Aubergine / Brinjal / Eggplant, unpeeled, raw ===> Lilek / Brinjal / Lilek, neloupaný, syrové
+Bamboo shoots, canned in brine, drained ===> Bambusové výhonky, konzervované ve slaném nálevu, okapané
+Bamboo shoots, raw ===> Bambusové výhonky, syrové
+Banana blossom / heart, canned, drained ===> Banánový květ / srdce, konzerva, okapaná
+Bean, asparagus / yardlong / snakebean, raw ===> Fazole, chřest / yardlong / hadí boby, syrové
+Bean, green, raw ===> Fazole, zelené, syrové
+Beetroot, canned, drained ===> Červená řepa, konzerva, okapaná
+Beetroot, pickled in vinegar, drained ===> Červená řepa naložená v octě, okapaná
+Beetroot, raw ===> Červená řepa, syrová
+Bell pepper / Capsicum, green, raw ===> Paprika / Paprika, zelená, syrová
+Bell pepper / Capsicum, orange, raw ===> Paprika / Paprika, pomeranč, syrová
+Bell pepper / Capsicum, red, raw ===> Paprika / Paprika, červená, syrová
+Bell pepper / Capsicum, red, roasted, in brine, drained ===> Paprika / Paprika, červená, pražená, ve slaném nálevu, okapaná
+Bell pepper / Capsicum, yellow, raw ===> Paprika / Paprika, žlutá, syrová
+Bok choy, raw ===> Bok choy, syrové
+Broccoli (heads only), raw ===> Brokolice (pouze hlavy), syrová
+Broccoli (stalks only), raw ===> Brokolice (pouze stonky), syrová
+Broccolini (heads only), raw ===> Brokolice (pouze hlavy), syrová
+Broccolini (stalks only), raw ===> Brokolice (pouze stonky), syrová
+Brussels sprouts, raw ===> Růžičková kapusta, syrová
+Burdock root, frozen ===> Kořen lopuchu, zmrazený
+Cabbage, Chinese / wombok, raw ===> Zelí, čínské / wombok, syrové
+Cabbage, red, raw ===> Zelí, červené, syrové
+Cabbage, savoy, raw ===> Zelí, savojové, syrové
+Cabbage, white / common, raw ===> Zelí, bílé / obyčejné, syrové
+Callaloo, canned in brine, drained ===> Callaloo, konzervované ve slaném nálevu, scezené
+Carrot, unpeeled, raw ===> Mrkev, neloupaná, syrová
+Cassava / Yuca, peeled, raw ===> Maniok / Yuca, loupaný, syrové
+Cauliflower, purple, raw ===> Květák, fialový, syrové
+Cauliflower, white, raw ===> Květák, bílý, syrové
+Celeriac / Celery root, peeled, raw ===> Celer / Kořen celeru, loupaný, syrové
+Celery (leaves only), raw ===> Celer (pouze listy), syrové
+Celery (stalk only), raw ===> Celer (pouze stopkový), syrové
+Chicory leaves / greens, raw ===> Listy čekanky / zelené, syrové
+Chile, green, peeled, deseeded ===> Chile, zelené, oloupané, zbavené semínek
+Chilli / Chili, ancho, whole, dried ===> Chilli / Chilli, ancho, celé, sušené
+Chilli / Chili, chipotle, whole, dried ===> Chilli / Chilli, chipotle, celé, sušené
+Chilli / Chili, green, whole, raw ===> Chilli / Chilli, zelené, celé, syrové
+Chilli / Chili, Habanero, red, whole, raw ===> Chilli / Chilli, Habanero, červené, celé, syrové
+Chilli / Chili, Jalapeno, whole, raw ===> Chilli / Chilli, Jalapeno, celé, syrové
+Chilli / Chili, Poblano, whole, raw ===> Chilli / Chilli, Poblano, celé, syrové
+Chilli / Chili, red, whole, raw ===> Chilli / Chilli, červené, celé, syrové
+Cho Cho / Chayote / Choko, raw ===> Cho Cho / Chayote / Choko, syrové
+Choy sum, raw ===> Choy sum, syrové
+Chrysanthemum greens, raw ===> Chryzantémová zeleň, syrová
+Collard greens, raw ===> Collardová zelenina, syrová
+Corn, baby, canned, drained ===> Kukuřice, dítě, konzerva, okapaná
+Corn, creamed, canned ===> Kukuřice, smetana, konzerva
+Corn, kernels, canned, drained ===> Kukuřice, jádra, konzerva, okapaná
+Corn, kernels, fresh or frozen, raw ===> Kukuřice, jádra, čerstvá nebo mražená, syrová
+Cornichons, drained ===> Cornichons, scezené
+Cucamelon, raw ===> Cucamelon, syrové
+Cucumber, continental, raw ===> Okurka, kontinentální, syrové
+Cucumber, Lebanese, raw ===> Okurka, libanonská, syrová
+Daikon, white, raw ===> Daikon, bílý, syrové
+Dulse flakes, dried ===> Dulse vločky, sušené
+Edamame / Immature soybeans, shelled, frozen ===> Edamame / Nezralé sójové boby, vyloupané, zmrazené
+Endive, curly, raw ===> Endivie, kadeřavá, syrová
+Fennel (bulb only), raw ===> Fenykl (pouze cibule), syrové
+Fennel (leaves only), raw ===> Fenykl (pouze listy), syrové
+Fungus, white back black, dried ===> Houba, bílá hřbet černá, sušená
+Gai lan / Chinese broccoli, raw ===> Gai lan / čínská brokolice, syrová
+Galangal, peeled, raw ===> Galangal, loupaný, syrové
+Garlic shoots, raw ===> Výhonky česneku, syrové
+Garlic, black, fermented ===> Česnek, černý, fermentovaný
+Garlic, peeled, raw ===> Česnek, oloupaný, syrové
+Garlic, pickled in vinegar, drained ===> Česnek naložený v octě, scezený
+Ginger, root, peeled, raw ===> Zázvor, kořen, loupaný, syrové
+Heart of Palms, canned in brine, drained ===> Srdce z palem, konzervované ve slaném nálevu, scezené
+Jalapeño, pickled in vinegar, drained ===> Jalapeňo, naložené v octě, okapané
+Jicama, peeled, raw ===> Jicama, loupaná, syrová
+Kale, Tuscan, raw ===> Kapusta, toskánská, syrová
+Kimchi (cabbage, radish), Korean-style ===> Kimchi (zelí, ředkvičky), korejský způsob
+Kohlrabi, peeled, raw ===> Kedlubny, loupané, syrové
+Leek (green leaves only), raw ===> Pórek (pouze zelené listy), syrové
+Leek (white bulb only), raw ===> Pórek (pouze bílá žárovka), syrové
+Lettuce, butter, raw ===> Salát, máslo, syrové
+Lettuce, cos / romaine, raw ===> Salát, cos / římský, syrové
+Lettuce, iceberg, raw ===> Salát, ledový, syrové
+Lettuce, radicchio, raw ===> Hlávkový salát, čekanky, syrové
+Lettuce, red coral, raw ===> Salát, červený korál, syrové
+Lettuce, rocket / arugula, raw ===> Salát, rukola / rukola, syrové
+Lotus root, dried ===> Lotosový kořen, sušený
+Lotus root, frozen ===> Kořen lotosu, zmrazený
+Melon, bitter, raw ===> Meloun, hořký, syrové
+Mushroom, black chanterelle, dried ===> Houba, černá liška, sušená
+Mushroom, button, raw ===> Houba, knoflík, syrová
+Mushroom, champignons / white button, canned in brine, drained ===> Houby, žampiony / bílý knoflík, konzerva ve slaném nálevu, okapaná
+Mushroom, enoki, raw ===> Houby, enoki, syrové
+Mushroom, maitake, raw ===> Houby, maitake, syrové
+Mushroom, oyster / hiratake, raw ===> Houby, ústřice / hiratake, syrové
+Mushroom, porcini / porchino / penny bun, dried ===> Houby, hříbky / porchino / penny houska, sušené
+Mushroom, portobella / portobello / giant cremini, raw ===> Houba, portobella / portobello / obří cremini, syr
+Mushroom, red pine / saffron milk cap, raw ===> Houba, červená borovice / šafránová čepice, syrová
+Mushroom, shiitake, dried ===> Houby, shiitake, sušené
+Mushroom, shiitake, raw ===> Houby, shiitake, syrové
+Mushroom, shimeji, raw ===> Houby, shimeji, syrové
+Mushroom, slippery jack / sticky bun, raw ===> Houba, kluzký jack / lepkavá buchta, syrová
+Okra, raw ===> Okra, syrová
+Olives, black, pitted ===> Olivy, černé, vypeckované
+Olives, green, pitted ===> Olivy, zelené, vypeckované
+Onion, large, pickled in vinegar, drained ===> Cibule velká, naložená v octě, okapaná
+Onion, shallot, raw ===> Cibule, šalotka, syrová
+Onion, Spanish / red, raw ===> Cibule, španělská / červená, syrová
+Onion, spring / scallion (green tops only), raw ===> Cibule, jarní / jarní cibulka (pouze zelené natě), syrová
+Onion, spring / scallion (white bulb only), raw ===> Cibule, jarní / jarní cibulka (pouze bílá cibule), syrová
+Onion, Vidalia, raw ===> Cibule, Vidalia, syrová
+Onion, white, raw ===> Cibule, bílá, syrová
+Parsnip, raw ===> Pastinák, syrové
+Pea, snow / mangetout, raw ===> Hrášek, sníh / mangetout, syrové
+Pea, sugar snap, raw ===> Hrášek, cukr, syrové
+Peas, green, canned, drained ===> Hrášek, zelený, konzervovaný, okapaný
+Peas, green, frozen, thawed ===> Hrášek, zelený, mražený, rozmražený
+Potato, red, unpeeled, raw ===> Brambory, červené, neloupané, syrové
+Potato, sweet / kumara, orange, unpeeled, raw ===> Batáty / sladké brambory, oranžové, neloupané, syrové
+Potato, sweet / kumara, purple, unpeeled, raw ===> Brambory, sladké / kumara, fialové, neloupané, syrové
+Potato, sweet / kumara, white, unpeeled, raw ===> Brambory, sladké / kumara, bílé, neloupané, syrové
+Potato, white, unpeeled, raw ===> Brambory, bílé, neloupané, syrové
+Pumpkin / Squash, acorn, peeled, raw ===> Dýně / tykev, žalud, loupaná, syrová
+Pumpkin / Squash, acorn, unpeeled, raw ===> Dýně / tykev, žalud, neloupaná, syrová
+Pumpkin / Squash, butternut, unpeeled, raw ===> Dýně / tykev, máslová, neloupaná, syrová
+Pumpkin / Squash, Delicata, peeled, raw ===> Dýně / tykev, Delicata, loupaná, syrová
+Pumpkin / Squash, Delicata, unpeeled, raw ===> Dýně / tykev, Delicata, neloupaná, syrová
+Pumpkin / Squash, Japanese / Kabocha / Kent, unpeeled, raw ===> Dýně / tykev, japonská / Kabocha / Kent, neloupaná, syrová
+Pumpkin / Squash, pureed, canned ===> Dýně / tykev, pyré, konzerva
+Pumpkin / Squash, sugar, peeled, raw ===> Dýně / tykev, cukr, loupaná, syrová
+Pumpkin / Squash, sugar, unpeeled, raw ===> Dýně / tykev, cukr, neloupaná, syrová
+Pumpkin, Jarrahdale, peeled, raw ===> Dýně, Jarrahdale, loupaná, syrová
+Radish, unpeeled, raw ===> Ředkvičky, neloupané, syrové
+Rutabaga / Swede / Swedish turnip, unpeeled, raw ===> Rutabaga / Švédská / Švédská tuřín, neloupaná, syrová
+Sauerkraut, white cabbage, drained ===> Kysané zelí, bílé zelí, okapané
+Seaweed, Kombu / Kelp, dried ===> Mořské řasy, Kombu / Kelp, sušené
+Seaweed, nori, dried ===> Mořské řasy, nori, sušené
+Seaweed, wakame, flakes, dried ===> Mořské řasy, wakame, vločky, sušené
+Spinach, baby, raw ===> Špenát, baby, syrové
+Spinach, English, raw ===> Špenát, anglický, syrové
+Sprouts, broccoli ===> Klíčky, brokolice
+Sprouts, mung bean, raw ===> Klíčky, mungo, syrové
+Squash, button / patty pan / scallop, raw ===> Squash, knoflík / placička / hřebenatka, syrové
+Squash, spaghetti, peeled, cooked ===> Dýně, špagety, loupané, vařené
+Squash, straightneck, yellow, raw ===> Squash, rovný krk, žlutý, syrové
+Swiss chard / Silverbeet, raw ===> Švýcarský mangold / Stříbrná řepa, syrové
+Taro / Dalo / Talo, peeled, raw ===> Taro / Dalo / Talo, loupané, syrové
+Tomatillo, canned in brine, drained ===> Tomatillo, konzervované ve slaném nálevu, okapané
+Tomatillo, raw ===> Tomatillo, syrové
+Tomato, cherry, raw ===> Rajčatová, třešňová, syrová
+Tomato, common, raw ===> Rajčata, obyčejná, syrová
+Tomato, Roma / plum, canned, with juice ===> Rajčatová, romská / švestková, konzerva, se šťávou
+Tomato, Roma / plum, raw ===> Rajčatová, romská / švestková, syrová
+Tomato, round, whole, canned, with juice ===> Rajčata, kulatá, celá, z konzervy, se šťávou
+Tomato, semi sun-dried, drained ===> Rajčata, polosušená, okapaná
+Tomato, truss / on the vine, raw ===> Rajče, krov / na révě, syr
+Turmeric, raw ===> Kurkuma, syrová
+Turnip, white, peeled, raw ===> Tuřín, bílý, loupaný, syrové
+Water chestnut, canned in water, drained ===> Vodní kaštan, zavařený ve vodě, scezený
+Water spinach, raw ===> Vodní špenát, syrové
+Watercress, fresh ===> Řeřicha, čerstvá
+Witlof / Witloof / Belgian endive, raw ===> Witlof / Witloof / Belgická endivie, syrová
+Yam, peeled, raw ===> Yam, loupaný, syrové
+Zucchini / Courgette / Baby marrow, raw ===> Cuketa / Cuketa / Dětská dřeň, syrová
+Ackee, tinned in brine, drained ===> Ackee, konzervované ve slaném nálevu, scezené
+Apple, dried ===> Jablko, sušené
+Apple, Granny Smith, peeled, raw ===> Jablko, Granny Smith, loupané, syrové
+Apple, Granny Smith, unpeeled, raw ===> Jablko, Granny Smith, neloupané, syrové
+Apple, pink, peeled, raw ===> Jablko, růžové, loupané, syrové
+Apple, pink, unpeeled, raw ===> Jablko, odrůda Pink Lady, neloupané, syrové
+Apricot, canned in juice, drained ===> Meruňka, zavařená ve šťávě, okapaná
+Apricot, dried ===> Meruňka, sušená
+Apricot, pitted, raw ===> Meruňková, vypeckovaná, syrová
+Avocado, Hass, peeled, pitted, raw ===> Avokádo, Hass, loupané, vypeckované, syrové
+Banana chips, dried ===> Banánové lupínky, sušené
+Banana, common, firm, peeled, raw ===> Banán, obyčejný, pevný, oloupaný, syrové
+Banana, common, ripe, peeled, raw ===> Banán, obyčejný, zralý, oloupaný, syrové
+Banana, sugar, firm, peeled, raw ===> Banán, cukr, pevný, oloupaný, syrové
+Banana, sugar, ripe, peeled, raw ===> Banán, cukr, zralý, oloupaný, syrové
+Berry, blackberry, raw ===> Bobule, ostružiny, syrové
+Berry, blueberry, raw ===> Bobule, borůvky, syrové
+Berry, boysenberry, raw ===> Berry, Boysenberry, raw
+Berry, cranberries, dried ===> Bobule, brusinky, sušené
+Berry, cranberries, raw ===> Bobule, brusinky, syrové
+Berry, goji, dried ===> Bobule, goji, sušené
+Berry, juniper, dried ===> Bobule, jalovec, sušené
+Berry, raspberry, raw ===> Bobule, maliny, syrové
+Berry, strawberry, raw ===> Bobule, jahody, syrové
+Breadfruit, peeled, raw ===> Chlebovník, loupaný, syrové
+Carambola / Starfruit, raw ===> Karambola / Starfruit, syrové
+Cherries, pitted, frozen ===> Třešně, vypeckované, mražené
+Cherries, pitted, raw ===> Třešně, vypeckované, syrové
+Coconut, mature fruit, flesh only, raw ===> Kokos, zralé ovoce, pouze dužina, syrové
+Coconut, shredded, dried ===> Kokos, nastrouhaný, sušený
+Cumquats, peeled, raw ===> Cumquaty, loupané, syrové
+Cumquats, unpeeled, raw ===> Cumquaty, neloupané, syrové
+Currants, black, frozen ===> Rybíz, černý, mražený
+Currants, dried ===> Rybíz, sušený
+Currants, red, frozen ===> Rybíz, červený, mražený
+Custard apple, peeled, deseeded, raw ===> Pudinkové jablko, oloupané, zbavené pecek, syrové
+Dates, dried, pitted ===> Datle, sušené, vypeckované
+Dates, Medjool, pitted ===> Datle, Medjool, bez pecek
+Dragon fruit, peeled, raw ===> Dračí ovoce, loupané, syrové
+Durian, deseeded, raw ===> Durian, zbavený semínek, syrové
+Feijoa, unpeeled, raw ===> Feijoa, neloupaná, syrová
+Figs, dried ===> Fíky, sušené
+Figs, unpeeled, raw ===> Fíky, neloupané, syrové
+Grape, green / white, seedless, raw ===> Hroznová, zelená / bílá, bez pecek, syrová
+Grape, red, seedless, raw ===> Hroznová, červená, bez pecek, syrová
+Grapefruit, peeled, raw ===> Grapefruit, loupaný, syrové
+Guava, canned in syrup, drained ===> Guava, konzervovaná v sirupu, okapaná
+Guava, firm, peeled, raw ===> Guava, pevná, loupaná, syrová
+Guava, ripe, peeled, raw ===> Guava, zralá, loupaná, syrová
+Hawthorn / Haw, dried ===> Hloh / Haw, sušený
+Jackfruit, yellow, canned, drained ===> Jackfruit, žlutý, konzervovaný, okapaný
+Jackfruit, young, canned, drained ===> Jackfruit, mladý, konzervovaný, okapaný
+Juice, lemon, freshly squeezed ===> Šťáva, citron, čerstvě vymačkaná
+Juice, lime, fresh ===> Šťáva, limetka, čerstvá
+Kiwiberry, fresh ===> Kiwiberry, čerstvé
+Kiwifruit, gold, peeled, raw ===> Kiwi, zlaté, loupané, syrové
+Kiwifruit, Green Kiwifruit, Zespri™ ===> Kiwi, zelené kiwi, Zespri™
+Kiwifruit, green, peeled, raw ===> Kiwi, zelené, loupané, syrové
+Kiwifruit, SunGold Kiwifruit, Zespri™ ===> Kiwi, SunGold Kiwi, Zespri™
+Longan, dried ===> Longan, sušený
+Longan, peeled, pitted, raw ===> Longan, loupaný, vypeckovaný, syrové
+Lychee, canned in syrup, drained ===> Liči, konzervované v sirupu, scezené
+Lychee, peeled, pitted, raw ===> Liči, loupané, vypeckované, syrové
+Mandarin, imperial, peeled, raw ===> Mandarinka, císařská, loupaná, syrová
+Mango, dried ===> Mango, sušené
+Mango, peeled, pitted, raw ===> Mango, oloupané, vypeckované, syrové
+Melon, Cantaloupe / Rockmelon, peeled, deseeded, raw ===> Meloun, meloun / meloun, loupaný, zbavený semínek, syrové
+Melon, honey dew, white skin, peeled, deseeded, raw ===> Meloun, medová rosa, bílá slupka, oloupaná, zbavená semínek, syrová
+Mixed peel, citrus fruits ===> Smíšená kůra, citrusové plody
+Nectarine, white, unpeeled, pitted, raw ===> Nektarinka, bílá, neloupaná, vypeckovaná, syrová
+Nectarine, yellow, unpeeled, pitted, raw ===> Nektarinka, žlutá, neloupaná, vypeckovaná, syrová
+Orange, navel, peeled, raw ===> Pomeranč, pupík, loupaný, syrové
+Papaya, green, peeled, deseeded, raw ===> Papája, zelená, loupaná, zbavená semínek, syrová
+Papaya, yellow, peeled, deseeded, raw ===> Papája, žlutá, loupaná, zbavená semínek, syrová
+Passionfruit, pulp, raw ===> Mučenka, dužina, syrová
+Pawpaw, dried ===> Pawpaw, sušená
+Peach, canned in juice, drained ===> Broskev, zavařená ve šťávě, okapaná
+Peach, clingstone, unpeeled, pitted, raw ===> Broskvová, lepkavá, neloupaná, vypeckovaná, syrová
+Peach, white, unpeeled, pitted, raw ===> Broskvová, bílá, neloupaná, vypeckovaná, syrová
+Peach, yellow, unpeeled, pitted, raw ===> Broskvová, žlutá, neloupaná, vypeckovaná, syrová
+Pear, dried ===> Hruška, sušená
+Pear, green, ripe, unpeeled, raw ===> Hruška, zelená, zralá, neloupaná, syrová
+Pear, nashi, unpeeled, pitted, raw ===> Hruška, nashi, neloupaná, vypeckovaná, syrová
+Persimmon, unpeeled, raw ===> Tomel, neloupaný, syrové
+Pineapple, canned in juice, slices, drained ===> Ananas, konzervovaný ve šťávě, plátky, okapaný
+Pineapple, canned in syrup, slices, drained ===> Ananas, konzervovaný v sirupu, plátky, okapaný
+Pineapple, dried ===> Ananas, sušený
+Pineapple, peeled, raw ===> Ananas, loupaný, syrové
+Plantain, green, peeled, raw ===> Jitrocel, zelený, loupaný, syrové
+Plum, black diamond, unpeeled, pitted, raw ===> Švestka, černý diamant, neloupaná, pecková, syrová
+Pomegranate seeds, raw ===> Semínka granátového jablka, syrová
+Prickly pear / Indian Fig, peeled, raw ===> Opuncie / indický fík, loupaný, syrové
+Prune / Dried plum ===> Sušené švestky / Sušené švestky
+Raisin ===> Rozinka
+Rambutan, peeled, pitted, raw ===> Rambutan, loupaný, vypeckovaný, syrové
+Rhubarb, stalk, raw ===> Rebarbora, nať, syrová
+Sultana ===> Sultánka
+Tamarillo, peeled, raw ===> Tamarillo, loupané, syrové
+Tamarind, shelled, deseeded, raw ===> Tamarind, vyloupaný, zbavený semínek, syrové
+Watermelon, seedless, peeled, raw ===> Meloun, bez pecek, loupaný, syrové
+Zest / rind, lemon ===> Kůra / kůra, citron
+Zest / rind, orange ===> Kůra / kůra, pomeranč
+Butter, plain ===> Máslo, obyčejné
+Buttermilk ===> Podmáslí
+Cheese, American, orange, deli style ===> Sýr, americký, oranžový, plátkový
+Cheese, American, orange, pre-wrapped singles ===> Sýr, americké, pomerančové, předem zabalené singly
+Cheese, American, white, pre-wrapped singles ===> Sýr, americké, bílé, předem zabalené singly
+Cheese, blue ===> Sýr, modrý
+Cheese, brie, French ===> Sýr, brie, francouzština
+Cheese, Camembert ===> Sýr, hermelín
+Cheese, Camembert, French ===> Sýr, hermelín, francouzština
+Cheese, cheddar style, vegan (coconut oil based) ===> Sýr, styl čedar, vegan (na bázi kokosového oleje)
+Cheese, cheddar style, vegan (soy based) ===> Sýr, čedarový styl, veganský (sójový)
+Cheese, cheddar, tasty / Colby, natural, regular fat ===> Sýr, čedar, chutný / Colby, přírodní, pravidelný tuk
+Cheese, Comté, French ===> Sýr, Comté, Francouz
+Cheese, cottage ===> Sýr, chaloupka
+Cheese, cream, garlic and herb, regular fat ===> Sýr, smetana, česnek a bylinky, běžný tuk
+Cheese, cream, plain, lactose free, regular fat ===> Sýr, smetana, obyčejný, bez laktózy, normální tuk
+Cheese, cream, plain, regular fat ===> Sýr, smetana, obyčejný tuk
+Cheese, cream, vegan (coconut oil based) ===> Sýr, smetanové, veganské (na bázi kokosového oleje)
+Cheese, creamy cheese portions, French style ===> Sýr, porce smetanového sýra, francouzský styl
+Cheese, fetta ===> Sýr, fetta
+Cheese, goat (chevre), soft, plain ===> Sýr, kozí (chevre), měkký, hladký
+Cheese, Gruyere, French ===> Sýr, Gruyere, francouzština
+Cheese, haloumi ===> Sýr, haloumi
+Cheese, Havarti ===> Sýr, Havarti
+Cheese, Manchego, Spanish ===> Sýr, manchego, španělština
+Cheese, Monterey Jack ===> Sýr, Monterey Jacku
+Cheese, mozzarella ===> Sýr, mozzarella
+Cheese, Oaxaca ===> Sýr, Oaxaca
+Cheese, parmesan ===> Sýr, parmazán
+Cheese, Parmigiano-Reggiano, Italian ===> Sýr, Parmigiano-Reggiano, Ital
+Cheese, pecorino style ===> Sýr, pecorino styl
+Cheese, quark ===> Sýr, tvaroh
+Cheese, Queso Fresco ===> Sýr, Queso Fresco
+Cheese, ricotta ===> Sýr, ricotta
+Cheese, Swiss ===> Sýr, švýcarský
+Coconut cream, canned, regular fat ===> Kokosový krém, konzervovaný, běžný tuk
+Condensed milk, coconut, sweetened, regular fat ===> Kondenzované mléko, kokos, slazený, běžný tuk
+Condensed milk, cow, sweetened, regular fat ===> Kondenzované mléko, kravské, slazené, běžný tuk
+Cream, pure, regular fat ===> Smetana, čistý, běžný tuk
+Cream, sour, regular fat ===> Smetana, kyselý, běžný tuk
+Cream, thickened, lactose free, regular fat ===> Smetana, zahuštěná, bez laktózy, normální tuk
+Cream, thickened, regular fat ===> Smetana, zahuštěný, pravidelný tuk
+Cream, whipped, fresh ===> Smetana, šlehané, čerstvé
+Crème Fraiche  ===> Crème Fraiche
+Custard, vanilla, regular fat ===> Pudinka, vanilka, obyčejný tuk
+Ice cream, vanilla, regular fat ===> Zmrzlina, vanilka, běžný tuk
+Kefir, plain ===> Kefír, obyčejný
+Milk, almond ===> Mléko, mandle
+Milk, coconut (contains inulin) ===> Mléko, kokos (obsahuje inulin)
+Milk, coconut, light, canned ===> Mléko, kokos, světlé, konzervy
+Milk, coconut, long life (UHT), unsweetened ===> Mléko, kokos, s dlouhou životností (UHT), neslazené
+Milk, coconut, powder ===> Mléko, kokos, prášek
+Milk, coconut, regular, canned ===> Mléko, kokosové, běžné, konzervované
+Milk, cow, A2, regular fat ===> Mléko, kravské, A2, normální tuk
+Milk, cow, evaporated, regular fat ===> Mléko, kravské, odpařené, normální tuk
+Milk, cow, lactose free, regular fat ===> Mléko, kravské, bez laktózy, normální tuk
+Milk, cow, reduced fat ===> Mléko, kráva, snížený obsah tuku
+Milk, cow, regular fat ===> Mléko, kráva, normální tuk
+Milk, cow, skim ===> Mléko, kráva, odstředěné
+Milk, goat, regular fat ===> Mléko, kozí, běžný tuk
+Milk, macadamia ===> Mléko, makadamové
+Milk, oat ===> Mléko, oves
+Milk, quinoa, unsweetened ===> Mléko, quinoa, neslazené
+Milk, rice ===> Mléko, rýže
+Milk, soy (soy bean) ===> Mléko, sója (sójové boby)
+Milk, soy (soy protein) ===> Mléko, sója (sójový protein)
+Yoghurt, coconut ===> Jogurt, kokos
+Yoghurt, goat, regular fat ===> Jogurt, kozí, obyčejný tuk
+Yoghurt, Greek, plain, regular fat ===> Jogurt, řecký, obyčejný, obyčejný tuk
+Yoghurt, natural, Indian ===> Jogurtová, přírodní, indická
+Yoghurt, natural, lactose free, regular fat ===> Jogurt, přírodní, bez laktózy, normální tuk
+Yoghurt, natural, low fat ===> Jogurt, přírodní, nízkotučný
+Yoghurt, natural, regular fat ===> Jogurt, přírodní, běžný tuk
+Yoghurt, soy ===> Jogurt, sója
+Yoghurt, strawberry, lactose free, regular fat ===> Jogurt, jahoda, bez laktózy, normální tuk
+Yoghurt, vanilla flavoured, regular fat ===> Jogurt, s příchutí vanilky, normální tuk
+Baked beans, canned in tomato sauce ===> Pečené fazole, konzervované v rajčatové omáčce
+Bean curd skin ===> Tofu kůže (Yuba)
+Bean, Adzuki / Red Chori, dried, boiled, drained ===> Fazole, Adzuki / Red Chori, sušené, vařené, okapané
+Bean, Adzuki, canned, drained ===> Fazole, Adzuki, konzerva, okapaná
+Bean, black (Douchi), fermented ===> Fazole, černé (Douchi), fermentované
+Bean, black (frijoles), canned, drained ===> Fazole, černé (frijoles), konzervy, okapané
+Bean, black eyed, dried, boiled, drained ===> Fazole, černé oko, sušené, vařené, okapané
+Bean, black, canned, drained ===> Fazole, černá, konzerva, okapaná
+Bean, black, dried, boiled, drained ===> Fazole, černé, sušené, vařené, okapané
+Bean, black, refried, canned ===> Fazole, černé, smažené, konzervované
+Bean, borlotti, canned, drained ===> Fazole, borlotti, konzerva, okapaná
+Bean, broad / fava, raw ===> Fazole, široké / fava, syrové
+Bean, butter / lima, canned, drained ===> Fazole, máslo / lima, konzerva, okapaná
+Bean, butter / lima, dried, boiled, drained ===> Fazole, máslo / lima, sušené, vařené, okapané
+Bean, cannellini, canned, drained ===> Fazole, cannellini, konzerva, okapaná
+Bean, four bean mix (cannellini beans, chickpeas, red kidney beans, lima beans), canned, drained ===> Fazole, směs čtyř fazolí (fazole cannellini, cizrna, červené fazole, fazole lima), konzerva, okapaná
+Bean, haricot / navy, dried, boiled, drained ===> Fazole, fazole / navy, sušené, vařené, okapané
+Bean, mung / Green gram, dried, husked, split, boiled, drained ===> Fazole, mungo / zelené gramy, sušené, loupané, štípané, vařené, okapané
+Bean, mung, whole, dried, boiled, drained ===> Fazole, mungo, celé, sušené, vařené, okapané
+Bean, mung, whole, dried, sprouted ===> Fazole, mungo, celé, sušené, naklíčené
+Bean, pinto, canned, drained ===> Fazole, pinto, konzerva, okapaná
+Bean, pinto, dried, boiled, drained ===> Fazole, pinto, sušené, vařené, okapané
+Bean, pinto, refried, canned ===> Fazole, pinto, smažené, konzervované
+Bean, red kidney, boiled, drained ===> Fazole, červená ledvinka, vařená, okapaná
+Bean, red kidney, canned, drained ===> Fazole, červená ledvina, konzerva, okapaná
+Bean, red kidney, whole, dried, sprouted ===> Fazole, červené ledvinky, celé, sušené, naklíčené
+Bean, soya, dried, boiled, drained ===> Fazole, sója, sušená, vařená, okapaná
+Burger, lentil ===> Burger, čočka
+Chickpea / Garbanzo bean, canned, drained ===> Cizrna / fazole Garbanzo, konzerva, okapaná
+Chickpea / Garbanzo bean, dried, boiled, drained ===> Cizrna / fazole Garbanzo, sušená, vařená, okapaná
+Chickpea / Garbanzo bean, whole, dried, sprouted ===> Cizrna / fazole Garbanzo, celá, sušená, naklíčená
+Egg replacer ===> Náhražka vajec
+Fermented bean curd (contains chilli, without garlic or onion) ===> Fermentovaný fazolový tvaroh (obsahuje chilli, bez česneku a cibule)
+Lentil, canned, drained ===> Čočka, konzerva, okapaná
+Lentil, green, hulled, dried, boiled, drained ===> Čočka zelená, loupaná, sušená, vařená, okapaná
+Lentil, Le Puy, hulled, dried, boiled, drained ===> Čočka, Le Puy, loupaná, sušená, vařená, okapaná
+Lentil, red, hulled, dried, boiled, drained ===> Čočka červená, loupaná, sušená, vařená, okapaná
+LSA mix (linseed, sunflower, almond), ground ===> LSA směs (lněné semínko, slunečnice, mandle), mletá
+Meat alternative, vegetarian, chicken strips (soy protein based) ===> Alternativa masa, vegetariánská, kuřecí nudličky (na bázi sójového proteinu)
+Meat alternative, vegetarian, false chicken (soy bean based) ===> Alternativa masa, vegetariánská, falešné kuře (na bázi sojových bobů)
+Meat alternative, vegetarian, mince (soy protein based), cooked ===> Alternativa masa, vegetariánská, mletá (na bázi sójového proteinu), vařené
+Meat alternative, vegetarian, mince (sunflower seed based) ===> Alternativa masa, vegetariánská, mletá (na bázi slunečnicových semínek)
+Meat alternative, vegetarian, mince (wheat protein based, contains onion), cooked ===> Alternativa masa, vegetariánská, mletá (na bázi pšeničného proteinu, obsahuje cibuli), vařené
+Meat alternative, vegetarian, mycoprotein (without garlic and onion), mince, cooked ===> Alternativa masa, vegetariánská, mykoproteinová (bez česneku a cibule), mletá, vařené
+Meat alternative, vegetarian, textured vegetable protein (TVP) (soy protein based) ===> Alternativa masa, vegetariánská, texturovaný rostlinný protein (TVP) (na bázi sójového proteinu)
+Nut, almond, shelled, raw ===> Mandle, loupané, syrové
+Nut, Brazil, shelled, raw ===> Ořech, Brazílie, vyloupaný, syrové
+Nut, cashew, shelled, activated ===> Oříšek, kešu, loupaný, aktivovaný
+Nut, cashew, shelled, raw ===> Kešu ořechy, vyloupané, syrové
+Nut, chestnut, shelled, boiled ===> Ořechy, kaštanový, vyloupaný, vařený
+Nut, chestnut, shelled, roasted ===> Ořechy, kaštanový, vyloupaný, pražený
+Nut, Ginkgo, peeled ===> Ořech, Ginkgo, loupaný
+Nut, hazelnut, shelled, raw ===> Lískové ořechy, loupané, syrové
+Nut, macadamia, shelled, raw ===> Makadamové ořechy, vyloupané, syrové
+Nut, peanut, with skin, raw ===> Arašídy, se slupkou, syrové
+Nut, pecan, shelled, raw ===> Pekanové ořechy, vyloupané, syrové
+Nut, pine, shelled, raw ===> Piniové oříšky, vyloupané, syrové
+Nut, pistachio, shelled, activated ===> Oříšek, pistácie, loupaný, aktivovaný
+Nut, pistachio, shelled, raw ===> Pistácie, vyloupané, syrové
+Nut, tigernut, shelled, raw ===> Ořech, tygří ořech, vyloupaný, syrové
+Nut, walnut, shelled, raw ===> Ořech, ořech, vyloupaný, syrové
+Pea, split, dried, boiled, drained ===> Hrášek rozpůlený, sušený, uvařený, scezený
+Seed, caraway ===> Semínko, kmín
+Seed, chia, black, dried ===> Semínková, chia, černá, sušená
+Seed, chia, white, dried ===> Semínková, chia, bílá, sušená
+Seed, hemp ===> Semena, konopí
+Seed, linseed / flaxseed ===> Semeno, lněné semínko / lněné semínko
+Seed, lotus, white, dried, soaked ===> Semeno, lotos, bílé, sušené, namočené
+Seed, poppy, black ===> Semínková, maková, černá
+Seed, pumpkin, hulled, dried ===> Semena, dýně, loupaná, sušená
+Seed, sesame ===> Semínka, sezam
+Seed, sunflower, hulled ===> Semena, slunečnice, loupaná
+Tempeh, plain ===> Tempeh, obyčejný
+Tofu (soy bean curd), firm, drained ===> Tofu (sojový tvaroh), pevný, okapaný
+Tofu (soy bean curd), silken ===> Tofu (sojový tvaroh), hedvábí
+Beer ===> Pivo
+Cacao powder ===> Kakaový prášek
+Carob powder ===> Karobový prášek
+Chicory root powder, roasted ===> Prášek z kořene čekanky, pražený
+Cocoa powder ===> Kakaový prášek
+Coconut water, commercial ===> Kokosová voda, komerční
+Coconut water, mature, fresh juice ===> Kokosová voda, zralá, čerstvá šťáva
+Coffee, espresso ===> Káva, espresso
+Coffee, instant, decaffeinated, granules / powder ===> Káva, instantní, bezkofeinová, granule / prášek
+Coffee, instant, regular, granules / powder ===> Káva, instantní, běžná, granule / prášek
+Cola, diet / zero / sugar free ===> Cola, dieta / nula / bez cukru
+Cola, original (sweetened with sucrose) ===> Cola, originál (slazená sacharózou)
+Cordial, apple and raspberry, 50% real juice ===> Cordial, jablko a malina, 50% skutečné šťávy
+Cordial, orange, 25-50% real juice ===> Sirup, pomerančový, 25-50% skutečné šťávy
+Drink, aloe, unflavoured ===> Pijte, aloe, neochucené
+Drink, cranberry, 27% juice ===> Nápoj, brusinka, 27% šťáva
+Drinking chocolate powder, 23% cocoa ===> Čokoládový prášek, 23% kakaa
+Drinking chocolate powder, 60% cocoa ===> Čokoládový prášek, 60% kakaa
+Drinking chocolate powder, 70% cocoa ===> Čokoládový prášek, 70% kakaa
+Ginger Ale (ginger flavouring) ===> Ginger Ale (zázvorová příchuť)
+Ginger Beer (contains ginger) ===> Zázvorové pivo (obsahuje zázvor)
+Juice, apple, 99% reconstituted ===> Šťáva, jablko, 99% rekonstituovaný
+Juice, apple, 99% reconstituted and fresh blend ===> Šťáva, jablko, 99% rekonstituovaná a čerstvá směs
+Juice, berry fruit blend (from juice bar) ===> Šťáva, směs bobulového ovoce (z džusu)
+Juice, cranberry, 100% ===> Šťáva, brusinka, 100%
+Juice, lemon, freshly squeezed ===> Šťáva, citron, čerstvě vymačkaná
+Juice, orange, 98% reconstituted ===> Pomerančový džus, 98% rekonstituovaný
+Juice, orange, 99% reconstituted and fresh blend ===> Šťáva, pomeranč, 99% rekonstituovaná a čerstvá směs
+Juice, orange, freshly squeezed ===> Šťáva, pomeranč, čerstvě vymačkaná
+Juice, tomato, 100% ===> Džus, rajčata, 100%
+Kombucha, unflavoured ===> Kombucha, neochucená
+Kvass, unflavoured ===> Kvas, neochucený
+Lemonade, diet / zero / sugar free ===> Limonáda, dietní / nula / bez cukru
+Lemonade, original ===> Limonáda, originál
+Malted beverage base, chocolate flavour ===> Sladový nápojový základ, čokoládová příchuť
+Matcha powder ===> Matcha prášek
+Rum, dark ===> Rum, tmavý
+Soda water ===> Sodovka
+Tea, black, strong ===> Čaj, černý, silný
+Tea, black, strong, cow&#39;s milk ===> Čaj, černý, silný, kravské mléko
+Tea, black, strong, low fodmap milk alternatives ===> Alternativy čaje, černého, ​​silného, ​​nízkotučného mléka
+Tea, black, strong, soy milk (soy beans) ===> Čaj, černé, silné, sójové mléko (sójové boby)
+Tea, black, weak ===> Čaj, černý, slabý
+Tea, black, weak, cow&#39;s milk ===> Čaj, černý, slabý, kravské mléko
+Tea, black, weak, low fodmap milk alternatives ===> Alternativy čaje, černého, ​​slabého, nízkotučného mléka
+Tea, black, weak, soy milk (soy beans) ===> Čaj, černé, slabé, sójové mléko (sójové boby)
+Tea, chai, strong ===> Čaj, chai, silný
+Tea, chai, strong, cow&#39;s milk ===> Čaj, chai, silný, kravské mléko
+Tea, chai, strong, low fodmap milk alternatives ===> Alternativy čaje, chai, silného mléka s nízkým obsahem tuku
+Tea, chai, strong, soy milk (soy beans) ===> Čaj, chai, silné, sójové mléko (sójové boby)
+Tea, chai, weak ===> Čaj, chai, slabý
+Tea, chai, weak, cow&#39;s milk ===> Čaj, chai, slabé, kravské mléko
+Tea, chai, weak, low fodmap milk alternatives ===> Alternativy čaje, chai, slabého mléka s nízkým obsahem tuku
+Tea, chai, weak, soy milk (soy beans) ===> Čaj, chai, slabé, sójové mléko (sójové boby)
+Tea, chamomile, strong ===> Čaj, heřmánek, silný
+Tea, chamomile, weak ===> Čaj, heřmánek, slabý
+Tea, chrysanthemum, strong ===> Čaj, chryzantéma, silný
+Tea, chrysanthemum, weak ===> Čaj, chryzantéma, slabý
+Tea, dandelion, strong ===> Čaj, pampeliška, silný
+Tea, dandelion, weak ===> Čaj, pampeliška, slabý
+Tea, epazote, leaves, dried ===> Čaj, epazot, listy, sušené
+Tea, fennel, strong ===> Čaj, fenykl, silný
+Tea, fennel, weak ===> Čaj, fenykl, slabý
+Tea, green, strong ===> Čaj, zelený, silný
+Tea, licorice / liquorice, strong ===> Čaj, lékořice / lékořice, silný
+Tea, oolong, strong ===> Čaj, oolong, silný
+Tea, oolong, weak ===> Čaj, oolong, slabý
+Tea, osmanthus ===> Čaj, osmanthus
+Tea, peppermint, strong ===> Čaj, mátový, silný
+Tea, white, strong ===> Čaj, bílý, silný
+Tequila, gold ===> Tequila, zlatá
+Tequila, silver ===> Tequila, stříbro
+Wheatgrass powder ===> Prášek z pšeničné trávy
+Whiskey / Bourbon / Scotch ===> Whisky / Bourbon / Skotská
+Wine, red ===> Víno, červené
+Wine, sparkling ===> Víno, šumivé
+Wine, sticky / dessert / fortified ===> Víno, lepkavé / dezert / obohacené
+Wine, white ===> Víno, bílé
+Wine, white, dry ===> Víno, bílé, suché
+Wine, white, sweet ===> Víno, bílé, sladké
+Bacon, all cuts, plain, cooked ===> Slanina, všechny kusy, obyčejná, vařená
+Beef, all cuts, plain, cooked ===> Hovězí maso, všechny kusy, obyčejné, vařené
+Chicken, all cuts, plain, cooked ===> Kuře, všechny kusy, obyčejné, vařené
+Country terrine, French ===> Venkovská terina, francouzština
+Egg, chicken, whole ===> Vejce, kuře, celé
+Fish, all varieties, plain ===> Ryby, všechny druhy, obyčejné
+Kangaroo, all cuts, plain, cooked ===> Klokan, všechny kusy, obyčejný, vařený
+Lamb, all cuts, plain, cooked ===> Jehněčí maso, všechny kusy, obyčejné, vařené
+Pork, all cuts, plain, cooked ===> Vepřové maso, všechny kusy, obyčejné, vařené
+Prawn / Shrimp, all varieties, plain, cooked ===> Krevety / Krevety, všechny druhy, hladké, vařené
+Salmon, plain, canned in brine, drained ===> Losos, prostý, konzervovaný ve slaném nálevu, okapaný
+Sardines, plain, canned in brine, drained ===> Sardinky, obyčejné, konzervované ve slaném nálevu, okapané
+Sausage, Saucisson (French cured sausage) ===> Klobása, Saucisson (francouzská uzená klobása)
+Tuna, plain, canned in brine, drained ===> Tuňák, prostý, konzervovaný ve slaném nálevu, okapaný
+Tuna, plain, canned in oil, drained ===> Tuňák, obyčejný, konzervovaný v oleji, okapaný
+Turkey, all cuts, plain, cooked ===> Krůtí maso, všechny kusy, obyčejné, vařené
+Butter, plain ===> Máslo, obyčejné
+Dairy blend, butter and edible oil spread ===> Pomazánka z mléčné směsi, másla a jedlého oleje
+Margarine spread, poly- or monounsaturated ===> Margarínová pomazánka, poly- nebo mononenasycená
+Mayonnaise, low fat ===> Majonéza, nízkotučná
+Mayonnaise, regular fat ===> Majonéza, běžný tuk
+Oil, avocado ===> Olej, avokádo
+Oil, canola ===> Olej, řepka
+Oil, coconut ===> Olej, kokos
+Oil, flaxseed ===> Olej, lněné semínko
+Oil, olive ===> Olej, olivový
+Oil, olive, garlic infused ===> Olej, oliva, česnek infuze
+Oil, peanut ===> Olej, arašídy
+Oil, perilla ===> Olej, perilla
+Oil, rice bran ===> Olej, rýžové otruby
+Oil, sesame ===> Olej, sezam
+Oil, sunflower ===> Olej, slunečnice
+Oil, vegetable ===> Olej, zelenina
+Asafoetida powder ===> Asafoetida prášek
+Broth, chicken, clear, Asian style ===> Vývar, kuřecí, čirý, asijský styl
+Capers, in vinegar, drained ===> Kapary, v octě, okapané
+Capers, salted ===> Kapary, solené
+Celery (leaves only), raw ===> Celer (pouze listy), syrové
+Chinese / Shaoxing cooking wine ===> Čínské / Shaoxing víno na vaření
+Chutney, fruit (contains pear, apple, garlic and onion) ===> Čatní, ovoce (obsahuje hrušku, jablko, česnek a cibuli)
+Chutney, mango (contains garlic and onion) ===> Čatní, mango (obsahuje česnek a cibuli)
+Chutney, tomato (contains garlic and onion) ===> Čatní, rajče (obsahuje česnek a cibuli)
+Coconut aminos (contains garlic and onion) ===> Kokosové aminokyseliny (obsahuje česnek a cibuli)
+Coconut aminos (without garlic and onion) ===> Kokosové aminokyseliny (bez česneku a cibule)
+Coconut cream, canned, regular fat ===> Kokosový krém, konzervovaný, běžný tuk
+Curry powder ===> Kari
+Currywurst powder ===> Currywurst prášek
+Dip, caviar ===> Dip, kaviár
+Dip, eggplant ===> Dip, lilek
+Gochugaru / Korean red chilli powder ===> Gochugaru / korejský červený chilli prášek
+Goraka, dried ===> Goraka, sušená
+Herb, Asian / garlic chives, fresh ===> Bylina, asijská / česneková pažitka, čerstvá
+Herb, basil, dried ===> Bylina, bazalka, sušená
+Herb, basil, fresh ===> Bylinky, bazalkový, čerstvý
+Herb, basil, Thai, fresh ===> Bylinky, bazalkový, thajský, čerstvý
+Herb, bay leaves, dried ===> Bylina, bobkové listy, sušené
+Herb, chives, dried ===> Bylina, pažitka, sušená
+Herb, chives, fresh ===> Bylinky, pažitkový, čerstvý
+Herb, coriander / cilantro, dried ===> Bylina, koriandr / koriandr, sušené
+Herb, coriander / cilantro, fresh ===> Bylina, koriandr / koriandr, čerstvé
+Herb, curry leaves, fresh ===> Bylina, kari listy, čerstvé
+Herb, dill, fresh ===> Bylinky, koprový, čerstvý
+Herb, dill, leaf, dried ===> Bylina, kopr, list, sušené
+Herb, fenugreek leaves, dried ===> Bylina, listy pískavice, sušené
+Herb, gotukala / gotu kola, fresh ===> Bylina, gotukala / gotu kola, čerstvá
+Herb, Herbs de Provence, dried ===> Bylina, Herbs de Provence, sušené
+Herb, kaffir lime leaves, fresh ===> Bylina, listy kafírové limetky, čerstvé
+Herb, lemongrass, fresh ===> Bylina, citronová tráva, čerstvé
+Herb, marjoram, dried ===> Bylina, majoránka, sušená
+Herb, mint, fresh ===> Bylinky, mátový, čerstvý
+Herb, oregano, dried ===> Bylina, oregano, sušené
+Herb, oregano, fresh ===> Bylinky, oregano, čerstvé
+Herb, parsley, dried ===> Bylina, petržel, sušená
+Herb, parsley, fresh ===> Bylinky, petrželový, čerstvý
+Herb, perilla, fresh ===> Bylina, perilla, čerstvá
+Herb, rosemary, dried ===> Bylina, rozmarýn, sušená
+Herb, rosemary, fresh ===> Bylinky, rozmarýnový, čerstvý
+Herb, sage, dried ===> Bylina, šalvěj, sušená
+Herb, sage, fresh ===> Bylinky, šalvějový, čerstvý
+Herb, tarragon, dried ===> Bylina, estragon, sušená
+Herb, tarragon, fresh ===> Bylinky, estragon, čerstvý
+Herb, thyme, dried ===> Bylinky, tymián, sušené
+Herb, thyme, fresh ===> Bylinky, tymiánový, čerstvý
+Juice, lemon, freshly squeezed ===> Šťáva, citron, čerstvě vymačkaná
+Marinade, barbeque, Cantonese style ===> Marináda, grilování, kantonský styl
+Mayonnaise, Japanese ===> Majonéza, japonská
+Mayonnaise, low fat ===> Majonéza, nízkotučná
+Mayonnaise, regular fat ===> Majonéza, běžný tuk
+Mint Jelly ===> Mátové želé
+Mirin seasoning / aji-mirin ===> Mirin koření / aji-mirin
+Nutritional yeast, flakes ===> Nutriční droždí, vločky
+Pasta sauce, cream-based, commercial ===> Omáčka na těstoviny, na smetaně, komerční
+Pasta sauce, tomato-based (contains garlic and onion), commercial ===> Omáčka na těstoviny na rajčatové bázi (obsahuje česnek a cibuli), komerční
+Paste, horseradish ===> Pasta, křen
+Paste, miso ===> Vložit, miso
+Paste, quince ===> Pasta, kdoule
+Paste, shrimp ===> Pasta, krevety
+Paste, tahini, hulled ===> Pasta, tahini, loupaná
+Paste, tahini, unhulled ===> Pasta, tahini, neloupaná
+Paste, tomato paste / concentrate ===> Protlak, rajčatový protlak / koncentrát
+Rampa / Pandan leaves, fresh ===> Rampa / Pandan listy, čerstvé
+Salsa, mild ===> Salsa, mírná
+Sauce, applesauce ===> Omáčka, jablečný protlak
+Sauce, barbeque / BBQ ===> Omáčka, grilování / BBQ
+Sauce, barbeque / BBQ, Asian style ===> Omáčka, grilování / BBQ, asijský styl
+Sauce, black bean (contains garlic) ===> Omáčka, černé fazole (obsahuje česnek)
+Sauce, black bean (without garlic) ===> Omáčka, černé fazole (bez česneku)
+Sauce, black pepper, Asian style ===> Omáčka, černý pepř, asijský styl
+Sauce, fish ===> Omáčka, ryba
+Sauce, fish, vegan ===> Omáčka, ryba, vegan
+Sauce, habanero, green ===> Omáčka, habanero, zelená
+Sauce, hoisin ===> Omáčka, hoisin
+Sauce, mint, thick ===> Omáčka, máta, hustá
+Sauce, mint, thin ===> Omáčka, máta, řídká
+Sauce, oyster ===> Omáčka, ústřice
+Sauce, oyster, vegan ===> Omáčka, ústřice, vegan
+Sauce, pesto, basil ===> Omáčka, pesto, bazalka
+Sauce, satay (contains garlic) ===> Omáčka, satay (obsahuje česnek)
+Sauce, satay (without garlic) ===> Omáčka, satay (bez česneku)
+Sauce, soy ===> Omáčka, sója
+Sauce, soy, sweet / ketjap / kecap manis ===> Omáčka, sója, sladké / ketjap / kecap manis
+Sauce, sriracha ===> Omáčka, sriracha
+Sauce, sweet and sour ===> Omáčka, sladkokyselá
+Sauce, sweet chilli (contains garlic), Asian style ===> Omáčka, sladké chilli (obsahuje česnek), asijský styl
+Sauce, tamari ===> Omáčka, tamari
+Sauce, tomato ===> Omáčka, rajče
+Sauce, Worcestershire ===> Omáčka, Worcestershire
+Spice, achiote / annatto seeds, whole ===> Koření, semínka achiote / annatto, celá
+Spice, allspice, dried, ground ===> Koření, nové koření, sušené, mleté
+Spice, cardamom pod, green, dried ===> Koření, lusk kardamomu, zelený, sušený
+Spice, cayenne pepper, hot, dried, ground ===> Koření, kajenský pepř, pálivý, sušený, mletý
+Spice, celery seed, dried, whole ===> Koření, celer, sušený, celý
+Spice, chilli / chili, dried, flakes ===> Koření, chilli / chilli, sušené, vločky
+Spice, chilli / chili, red, powdered ===> Koření, chilli / chilli, červené, práškové
+Spice, chilli / chili, red, whole, dry ===> Koření, chilli / chilli, červené, celé, suché
+Spice, cinnamon, dried, ground ===> Koření, skořice, sušená, mletá
+Spice, cinnamon, sticks / quills ===> Koření, skořice, tyčinky / brka
+Spice, cloves, dried, whole ===> Koření, hřebíček, sušené, celé
+Spice, coriander seed, dried, ground ===> Koření, semena koriandru, sušená, mletá
+Spice, coriander seed, whole ===> Koření, semínko koriandru, celé
+Spice, cumin / cummin seed, dried, ground ===> Koření, kmín / semínko kmínu, sušené, mleté
+Spice, dill, seed, dried ===> Koření, kopr, semena, sušené
+Spice, fennel seed, dried, whole ===> Koření, semena fenyklu, sušené, celé
+Spice, fenugreek seed, dried, whole ===> Koření, semeno pískavice, sušené, celé
+Spice, five spice ===> Koření, pět koření
+Spice, garlic powder ===> Koření, česnekový prášek
+Spice, mace, dried, ground ===> Koření, muškát, sušený, mletý
+Spice, mustard seed, black, dried, whole ===> Koření, hořčičné semínko, černé, sušené, celé
+Spice, nutmeg, dried, whole ===> Koření, muškátový oříšek, sušené, celé
+Spice, onion powder ===> Koření, cibulový prášek
+Spice, paprika, dried, ground ===> Koření, paprika, sušená, mletá
+Spice, paprika, smoked, dried, ground ===> Koření, paprika, uzené, sušené, mleté
+Spice, pepper, black, dried, whole ===> Koření, pepř, černý, sušený, celý
+Spice, saffron, threads ===> Koření, šafrán, nitě
+Spice, Sichuan peppercorn / Chinese prickly ash, green, dry ===> Koření, sečuánský pepř / čínský ostnatý jasan, zelený, suchý
+Spice, Sichuan peppercorn / Chinese prickly ash, red, dry ===> Koření, sečuánský pepř / čínský ostnatý jasan, červený, suchý
+Spice, star anise, dried, whole ===> Koření, badyán, sušené, celé
+Spice, sumac / sumak, dried, ground ===> Koření, škumpa / škumpa, sušená, mletá
+Spice, turmeric, dried, ground ===> Koření, kurkuma, sušená, mletá
+Spread, almond butter ===> Pomazánka, mandlové máslo
+Spread, cashew butter ===> Pomazánka, kešu máslo
+Spread, chestnut cream ===> Pomazánka, kaštanový krém
+Spread, corn relish (contains onion) ===> Pomazánka, kukuřičný dochuť (obsahuje cibuli)
+Spread, jam, mixed berry ===> Pomazánka, džem, smíšené bobule
+Spread, jam, raspberry ===> Pomazánka, marmeláda, malina
+Spread, jam, strawberry ===> Pomazánka, džem, jahoda
+Spread, marmalade, citrus ===> Pomazánka, marmeláda, citrusy
+Spread, mustard ===> Pomazánka, hořčice
+Spread, mustard, Dijon ===> Pomazánka, hořčice, Dijon
+Spread, peanut butter ===> Pomazánka, arašídové máslo
+Spread, vegetable pickles / relish ===> Pomazánka, zeleninové okurky / dochucení
+Tomato puree ===> Rajčatový protlak
+Vanilla bean, pods ===> Vanilkový lusk, lusky
+Vanilla essence ===> Vanilková esence
+Vinegar, apple cider ===> Ocet, jablečný mošt
+Vinegar, balsamic ===> Ocet, balsamico
+Vinegar, Chinkiang / Zhen Jiang / rice-based black vinegar ===> Ocet, Chinkiang / Zhen Jiang / černý ocet na bázi rýže
+Vinegar, malt ===> Ocet, slad
+Vinegar, red wine ===> Ocet, červené víno
+Vinegar, rice wine ===> Ocet, rýžové víno
+Vinegar, white ===> Ocet, bílý
+Wasabi, paste (contains sorbitol) ===> Wasabi, pasta (obsahuje sorbitol)
+Baked snack, gluten free, Grissini Sesame, organic, Schnitzer ===> Pečená svačina, bezlepková, Grissini Sesame, bio, Schnitzer
+Baked snack, gluten free, Muffin Schoko, dark chocolate, organic, Schnitzer ===> Pečená svačina, bezlepková, Muffin Schoko, hořká čokoláda, bio, Schnitzer
+Bar, energy, apple and berry ===> Tyčinka, energie, jablko a bobule
+Bar, energy, fruit and nut ===> Tyčinka, energie, ovoce a ořech
+Bar, energy, oatmeal, raisins and walnut ===> Tyčinka, energie, ovesné vločky, rozinky a ořech
+Bar, energy, peanut butter ===> Tyčinka, energie, arašídové máslo
+Bar, muesli, dried fruit ===> Tyčinka, müsli, sušené ovoce
+Bar, snack, wheat based ===> Tyčinka, svačina, na bázi pšenice
+Biscuit / Cookie, chocolate chip ===> Sušenka / sušenka, čokoláda
+Biscuit / Cookie, fruit filled ===> Sušenka / sušenka, plněná ovocem
+Biscuit / Cookie, plain ===> Sušenka / sušenka, obyčejná
+Biscuit / Cookie, sandwich, cream filling, chocolate-coated ===> Sušenka / Sušenka, sendvič, krémová náplň, v čokoládě
+Biscuit / Cookie, shortbread ===> Sušenka / sušenka, křehké pečivo
+Chips, corn, plain ===> Chipsy, kukuřice, obyčejné
+Chips, potato crisps, plain ===> Chipsy, bramborové lupínky, obyčejné
+Chips, potato straws, salted ===> Chipsy, bramborové brčka, solené
+Corn cake, flavoured, sour cream chives ===> Kukuřičný koláč, ochucený, zakysaná smetana pažitka
+Corn cake, plain ===> Kukuřičný koláč, obyčejný
+Cracker, rice, plain ===> Cracker, rýže, obyčejný
+Cracker, wheat ===> Cracker, pšenice
+Cracker, wholemeal ===> Cracker, celozrnný
+Crispbread, rye ===> Knäckebrot, žito
+Popcorn, plain ===> Popcorn, obyčejný
+Prawn cracker, cooked ===> Krevetové sušenky, vařené
+Pretzels ===> Preclíky
+Rice cake, flavoured, sour cream chives ===> Rýžový koláč, ochucený, zakysaná smetana pažitka
+Rice cake, plain ===> Rýžový koláč, obyčejný
+Cacao nibs ===> Kakaové hroty
+Chocolate, dark ===> Čokoláda, tmavé
+Chocolate, dark, 85% cocoa solids ===> Čokoláda, tmavá, 85% kakaové sušiny
+Chocolate, milk ===> Čokoláda, mléko
+Chocolate, white ===> Čokoláda, bílá
+Fruit leather ===> Ovocná kůže
+Haw flakes / Hawthorn candy ===> Haw flakes / Hawthorn cukroví
+Honey ===> Med
+Honey, avocado ===> Zlato, avokádo
+Honey, clover ===> Zlato, jetel
+Instant jelly, lime, diet, prepared ===> Instantní želé, limetka, dietní, připravené
+Instant jelly, raspberry, prepared ===> Instantní želé, malina, připravené
+Instant jelly, strawberry, prepared ===> Instantní želé, jahody, připravené
+Jelly, grass, canned ===> Bylinné želé (Grass jelly), konzervované
+Marshmallow ===> Ibišek
+Orange blossom water ===> Voda z pomerančových květů (Orange blossom water)
+Rose water ===> Voda z růží (Růžová voda)
+Sugar, brown ===> Cukr, hnědá
+Sugar, coconut ===> Cukr, kokos
+Sugar, demerara ===> Cukr, demerara
+Sugar, icing / powdered / confectioners ===> Cukr, poleva / prášek / cukrovinky
+Sugar, palm ===> Cukr, palma
+Sugar, raw ===> Cukr, syrové
+Sugar, rock (cane) ===> Cukr, kámen (třtina)
+Sugar, white ===> Cukr, bílý
+Sweetener, stevia, powder ===> Sladidlo, stévie, prášek
+Syrup, agave, dark ===> Sirup, agáve, tmavý
+Syrup, agave, light ===> Sirup, agáve, světlo
+Syrup, barley malt extract ===> Sirup, extrakt z ječného sladu
+Syrup, golden ===> Sirup, zlatý
+Syrup, maple, pure ===> Sirup, javor, čistý
+Syrup, molasses ===> Sirup, melasa
+Syrup, rice malt ===> Sirup, rýžový slad
+Syrup, sorghum ===> Sirup, čirok
+Vanilla essence ===> Vanilková esence
+Acai, powder ===> Acai, prášek
+Bamboo fibre ===> Bambusové vlákno
+Baobab, powder, 100% fruit ===> Baobab, prášek, 100% ovoce
+Dietary fibre, Nutriose® FB 06, soluble wheat fiber, Roquette ===> Dietní vláknina, Nutriose® FB 06, rozpustná pšeničná vláknina, Roquette
+Dietary fibre, Nutriose® FB 10, soluble wheat fiber, Roquette ===> Dietní vláknina, Nutriose® FB 10, rozpustná pšeničná vláknina, Roquette
+Dietary fibre, Nutriose® FM 06, soluble corn fiber, Roquette ===> Dietní vláknina, Nutriose® FM 06, rozpustná kukuřičná vláknina, Roquette
+Dietary fibre, Nutriose® FM 10, soluble corn fiber, Roquette ===> Dietní vláknina, Nutriose® FM 10, rozpustná kukuřičná vláknina, Roquette
+Dietary fibre, Nutriose® FM 15S, soluble corn fiber, Roquette ===> Dietní vláknina, Nutriose® FM 15S, rozpustná kukuřičná vláknina, Roquette
+Dietary fibre, Nutriose® FM HF2, soluble corn fiber, Roquette ===> Dietní vláknina, Nutriose® FM HF2, rozpustná kukuřičná vláknina, Roquette
+Dietary fibre, Nutriose® Pea 06, soluble pea fiber, Roquette ===> Dietní vláknina, Nutriose® Pea 06, rozpustná hrachová vláknina, Roquette
+Dietary fibre, Nutriose® Pea 10, soluble pea fiber, Roquette ===> Dietní vláknina, Nutriose® Pea 10, rozpustná hrachová vláknina, Roquette
+Dietary supplement, Performance Protein, Chocolate, Healthyroo ===> Doplněk stravy, Performance Protein, Čokoláda, Healthyroo
+Gum, acacia, powder ===> Guma, akácie, prášek
+Inulin powder ===> Inulinový prášek
+Lion&#39;s Mane mushroom, powder ===> Houba Lví hříva, prášek
+Maca powder ===> Maca prášek
+Matcha powder ===> Matcha prášek
+Protein powder, brown rice, sprouted, organic ===> Proteinový prášek, hnědá rýže, naklíčená, bio
+Protein powder, Raw Collagen Plus, Choc Hazelnut, Amazonia ===> Proteinový prášek, Raw Collagen Plus, Choc Hazelnut, Amazonia
+Protein powder, Raw Collagen Plus, Vanilla Maple, Amazonia ===> Proteinový prášek, Raw Collagen Plus, Vanilla Maple, Amazonia
+Protein powder, Raw Daily Nourish, Chocolate, Amazonia ===> Proteinový prášek, Raw Daily Nourish, Čokoláda, Amazonie
+Protein powder, Raw Daily Nourish, Vanilla, Amazonia ===> Proteinový prášek, Raw Daily Nourish, Vanilka, Amazonie
+Protein powder, Raw Gentle Digest, Chocolate, Amazonia ===> Proteinový prášek, Raw Gentle Digest, Čokoláda, Amazonie
+Protein powder, Raw Gentle Digest, Vanilla, Amazonia ===> Proteinový prášek, Raw Gentle Digest, Vanilka, Amazonie
+Protein powder, Raw Protein Isolate, Choc Coconut, Amazonia ===> Proteinový prášek, surový proteinový izolát, čokoládový kokos, Amazonie
+Protein powder, Raw Protein Isolate, Natural, Amazonia ===> Proteinový prášek, surový proteinový izolát, přírodní, Amazonie
+Protein powder, Raw Protein Isolate, Vanilla, Amazonia ===> Proteinový prášek, surový proteinový izolát, vanilka, Amazonie
+Protein powder, Raw Slim &amp; Tone, Triple Chocolate, Amazonia ===> Proteinový prášek, Raw Slim & Co. Tón, trojitá čokoláda, Amazonie
+Protein powder, Raw Slim &amp; Tone, Vanilla Cinnamon, Amazonia ===> Proteinový prášek, Raw Slim & Co. Tón, vanilka, skořice, Amazonie
+Protein powder, Springer® Proteissimo™ 102, Biospringer ===> Proteinový prášek, Springer® Proteissimo™ 102, Biospringer
+Slippery Elm, powder ===> Kluzký jilm, prášek
+Spirulina, powder ===> Spirulina, prášek
+Supplement powder, Fibriotics® AF+, Fermedics ===> Doplněk prášku, Fibriotics® AF+, Fermedics
+Supplement powder, SloIron® - GM5, SloIron ===> Doplněk prášku, SloIron® - GM5, SloIron
+Supplement powder, SloIron® - PS5, SloIron ===> Doplněk prášku, SloIron® - PS5, SloIron

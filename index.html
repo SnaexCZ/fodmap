@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>FODMAP AI Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/fontsource-inter@5.0.0/latin.css" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            bgBase: '#f1f5f9',
+            glass: 'rgba(255, 255, 255, 0.75)',
+            glassBorder: 'rgba(255, 255, 255, 0.9)',
+            safe: '#10b981',
+            med: '#f59e0b',
+            high: '#ef4444',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #dbeafe 0%, #eff6ff 40%, #f8fafc 100%);
+      background-attachment: fixed;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.3); border-radius: 10px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.5); }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    
+    .food-card { transition: all 0.25s ease; }
+    .food-card:hover { transform: translateY(-2px); background: rgba(255, 255, 255, 0.9); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05); }
+    .food-card.selected { border-color: #3b82f6; background: rgba(239, 246, 255, 0.8); }
+
+    .cat-btn.selected { background: #ffffff; color: #0f172a; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+
+    .modal-overlay { background: rgba(15, 23, 42, 0.4); backdrop-filter: blur(4px); opacity: 0; pointer-events: none; transition: opacity 0.3s; }
+    .modal-overlay.open { opacity: 1; pointer-events: auto; }
+    .modal-content { transform: translateY(20px) scale(0.95); opacity: 0; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); max-height: 90vh; overflow-y: auto; }
+    .modal-overlay.open .modal-content { transform: translateY(0) scale(1); opacity: 1; }
+
+    .b-1 { background: #10b981; } .b-2 { background: #f59e0b; } .b-3 { background: #ef4444; }
+    .badge-pill { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    .badge-1 { background: #d1fae5; color: #065f46; }
+    .badge-2 { background: #fef3c7; color: #92400e; }
+    .badge-3 { background: #fee2e2; color: #991b1b; }
+  </style>
+</head>
+<body class="text-slate-800">
+
+  <!-- Header -->
+  <header class="glass flex-none z-50 px-4 py-3 shadow-sm">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-lg shadow-lg shadow-blue-200">F</div>
+        <span class="font-bold text-lg tracking-tight hidden sm:block">FODMAP <span class="text-blue-600">AI</span></span>
+      </div>
+
+      <div class="relative flex-1 max-w-md order-3 sm:order-2">
+        <input type="text" id="searchInput" placeholder="Hledat potravinu..." oninput="hledej(this.value)"
+               class="w-full pl-10 pr-4 py-2 bg-white/50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:bg-white transition-all">
+        <svg class="absolute left-3 top-2.5 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
+
+      <div class="flex items-center gap-2 order-2 sm:order-3">
+        <button onclick="openModal('filterModal')" class="p-2 rounded-lg hover:bg-slate-100 text-slate-600 transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+        </button>
+        <div class="h-6 w-px bg-slate-200 mx-1"></div>
+        <button class="px-3 py-1.5 text-xs font-semibold bg-slate-800 text-white rounded-lg hover:bg-slate-700 transition">AI Asistent</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1 overflow-hidden relative p-3 sm:p-4">
+    <div class="max-w-7xl mx-auto h-full grid grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr_400px] gap-4 h-full">
+      
+      <section class="glass rounded-2xl p-3 flex flex-col h-full overflow-hidden">
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 px-1">Kategorie</h3>
+        <div id="catList" class="flex-1 overflow-y-auto space-y-1 pb-2 pr-1"></div>
+      </section>
+
+      <section class="glass rounded-2xl p-4 flex flex-col h-full overflow-hidden relative">
+        <div class="flex items-center justify-between mb-3">
+          <h2 id="catTitle" class="text-lg font-bold text-slate-800">Potraviny</h2>
+          <span id="foodCount" class="text-xs bg-slate-100 text-slate-500 px-2 py-1 rounded-md font-medium">0</span>
+        </div>
+        <div id="foodGrid" class="flex-1 overflow-y-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-3 pb-4 pr-1 content-start">
+          <div class="col-span-full flex flex-col items-center justify-center h-64 text-slate-400">
+            <div class="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-3 text-2xl">🥗</div>
+            <p class="text-sm text-center">Vyberte kategorii vlevo nebo začněte psát do vyhledávání.</p>
+          </div>
+        </div>
+      </section>
+
+      <aside id="detailPanel" class="glass rounded-2xl p-5 flex flex-col overflow-y-auto translate-x-full lg:translate-x-0 fixed lg:relative inset-y-0 right-0 w-full lg:w-auto z-40 transition-transform duration-300 bg-slate-50 lg:bg-transparent">
+        <button onclick="closeDetail()" class="lg:hidden absolute top-4 right-4 p-2 rounded-full bg-white/50 hover:bg-white">
+          <svg class="w-6 h-6 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+        <div id="detailEmpty" class="flex-1 flex flex-col items-center justify-center text-slate-400 py-20">
+          <svg class="w-20 h-20 mb-4 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+          <p class="text-center text-sm font-medium">Vyberte potravinu pro zobrazení detailu FODMAP složení.</p>
+        </div>
+        <div id="detailContent" class="hidden flex-col pr-1">
+          <h2 id="dName" class="text-2xl font-bold text-slate-900 mb-2 pr-8"></h2>
+          <div id="dBadges" class="flex gap-2 mb-6 flex-wrap"></div>
+          <div id="dServes" class="space-y-4 pb-20"></div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div id="plateDrawer" class="fixed bottom-0 left-0 right-0 z-40 p-3 sm:p-4 pointer-events-none">
+    <div class="glass rounded-2xl p-3 shadow-2xl pointer-events-auto max-w-5xl mx-auto flex items-center justify-between border-slate-300">
+      <div class="flex items-center gap-3">
+        <div class="relative cursor-pointer" onclick="openModal('plateModal')">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-500 to-indigo-500 flex items-center justify-center text-white shadow-lg">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 6h18M3 14h18M3 18h18"></path></svg>
+          </div>
+          <span id="plateCount" class="absolute -top-1.5 -right-1.5 bg-white text-slate-800 text-[10px] font-bold px-1.5 py-0.5 rounded-full border border-slate-100">0</span>
+        </div>
+        <div><h3 class="font-bold text-slate-800 text-sm">Váš Talíř</h3><p class="text-xs text-slate-500 truncate max-w-[120px]" id="platePreview">Prázdný</p></div>
+      </div>
+      <div class="flex gap-2">
+        <button onclick="openModal('plateModal')" class="px-4 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-100 rounded-lg">Zobrazit</button>
+        <button onclick="openModal('aiModal')" class="px-4 py-2 text-sm font-bold bg-slate-800 text-white rounded-lg hover:bg-slate-700 shadow-md flex items-center gap-2">🤖 AI Kontrola</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="filterModal" class="modal-overlay fixed inset-0 z-[60] flex items-center justify-center p-4">
+    <div class="modal-content glass w-full max-w-md rounded-2xl p-6">
+      <div class="flex justify-between items-center mb-4"><h2 class="text-lg font-bold">⚙️ Filtry citlivosti</h2><button onclick="closeModal('filterModal')" class="p-1 hover:bg-slate-100 rounded-full">&times;</button></div>
+      <p class="text-xs text-slate-500 mb-6">Nastavte, jak moc přísní chcete být. 🟢 = Vše povoleno, 🔴 = Pouze nejbezpečnější.</p>
+      <div id="seznam-filtru" class="space-y-4"></div>
+      <div class="flex gap-3 mt-8">
+        <button onclick="resetFiltru()" class="flex-1 py-2.5 border border-slate-300 rounded-xl text-slate-600 font-medium">Reset</button>
+        <button onclick="closeModal('filterModal')" class="flex-1 py-2.5 bg-slate-800 text-white rounded-xl font-medium">Hotovo</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="plateModal" class="modal-overlay fixed inset-0 z-[60] flex items-end sm:items-center justify-center p-0 sm:p-4">
+    <div class="modal-content glass w-full sm:max-w-lg rounded-t-2xl sm:rounded-2xl max-h-[85vh] flex flex-col bg-slate-50">
+      <div class="p-4 border-b border-slate-200 flex items-center justify-between"><h2 class="text-lg font-bold text-slate-800">🍽️ Obsah talíře</h2><button onclick="closeModal('plateModal')" class="p-1.5">&times;</button></div>
+      <div id="plateList" class="flex-1 overflow-y-auto p-4 space-y-2"></div>
+      <div class="p-4 border-t border-slate-200 flex gap-3">
+        <button onclick="clearPlate()" class="flex-1 py-2.5 border border-slate-300 rounded-xl">Vysypat</button>
+        <button onclick="openModal('aiModal')" class="flex-1 py-2.5 bg-slate-800 text-white rounded-xl font-bold">AI Kontrola</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="aiModal" class="modal-overlay fixed inset-0 z-[70] flex items-center justify-center p-4">
+    <div class="modal-content glass w-full max-w-md rounded-2xl p-8 text-center">
+      <div class="w-16 h-16 mx-auto bg-blue-600 rounded-full flex items-center justify-center text-white mb-4 text-2xl">🤖</div>
+      <h2 class="text-xl font-bold mb-2">AI Analýza Talíře</h2>
+      <p class="text-sm text-slate-500 mb-6">Tato funkce je v přípravě. Brzy bude umělá inteligence schopna analyzovat celkovou nálož FODMAP na vašem talíři.</p>
+      <button onclick="closeModal('aiModal')" class="px-8 py-2 bg-slate-800 text-white rounded-lg">Rozumím</button>
+    </div>
+  </div>
+
+  <script>
+    let currentResults = [];
+    let state = { selectedCat: null, selectedFood: null, plate: [], query: '' };
+    let citlivost = { fru: 3, lak: 3, sor: 3, man: 3, gos: 3, frun: 3 };
+    const uiEmoji = { 1: '🟢', 2: '🟡', 3: '🔴' };
+    const cukryInfo = [
+      { id: 'fru', nazev: 'Fruktóza' }, { id: 'lak', nazev: 'Laktóza' }, { id: 'sor', nazev: 'Sorbitol' },
+      { id: 'man', nazev: 'Mannitol' }, { id: 'gos', nazev: 'GOS' }, { id: 'frun', nazev: 'Fruktany' }
+    ];
+    const kategorie = [
+      { id: 'Ovoce', icon: '🍎' }, { id: 'Zelenina', icon: '🥦' }, { id: 'Obiloviny', icon: '🌾' },
+      { id: 'Mléčné', icon: '🥛' }, { id: 'Bílkoviny', icon: '🍗' }, { id: 'Ořechy', icon: '🌰' },
+      { id: 'Koření', icon: '🧂' }, { id: 'Nápoje', icon: '🥤' }, { id: 'Slané a sladké', icon: '🍿' }
+    ];
+
+    async function init() {
+      await nactiKategorie();
+      renderFiltry();
+      updatePlateUI();
+    }
+
+    async function nactiKategorie() {
+      const res = await fetch('/fodmap/api/kategorie');
+      const data = await res.json();
+      const ikony = { 'Ovoce': '🍎', 'Zelenina': '🥦', 'Obiloviny': '🌾', 'Mléčné': '🥛', 'Bílkoviny': '🍗', 'Ořechy': '🌰', 'Koření': '🧂', 'Nápoje': '🥤', 'Slané a sladké': '🍿' };
+      const list = document.getElementById('catList');
+      list.innerHTML = data.kategorie.map(k => `
+        <button onclick="selectCat('${k}')" class="cat-btn w-full text-left px-3 py-2.5 rounded-xl text-sm font-medium text-slate-600 hover:bg-white/50 transition-all flex items-center gap-3 mb-1 border border-transparent" data-id="${k}">
+          <span class="text-lg">${ikony[k] || '🥗'}</span>
+          <span>${k}</span>
+        </button>
+      `).join('');
+    }
+
+    function selectCat(id) {
+      state.selectedCat = id;
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('selected', b.dataset.id === id));
+      document.getElementById('catTitle').textContent = id;
+      hledej('cat:' + id);
+      if (window.innerWidth < 1024) closeDetail();
+    }
+
+    async function hledej(q) {
+      if (!q) { currentResults = []; renderFoods(); return; }
+      state.query = q;
+      try {
+          const res = await fetch(`/fodmap/api/hledej/${encodeURIComponent(q)}?fru=${citlivost.fru}&lak=${citlivost.lak}&sor=${citlivost.sor}&man=${citlivost.man}&gos=${citlivost.gos}&frun=${citlivost.frun}`);
+          const data = await res.json();
+          currentResults = data.vysledky;
+          renderFoods();
+      } catch (e) { console.error("Chyba hledání:", e); }
+    }
+
+    function renderFoods() {
+      const grid = document.getElementById('foodGrid');
+      document.getElementById('foodCount').textContent = currentResults.length;
+      if (currentResults.length === 0) {
+        grid.innerHTML = '<div class="col-span-full py-10 text-center text-slate-400">Nic nenalezeno.</div>';
+        return;
+      }
+      grid.innerHTML = currentResults.map(f => {
+        const isSelected = state.selectedFood && state.selectedFood.n === f.n;
+        return `
+          <div onclick="selectFood('${f.n}')" class="food-card bg-white/60 border border-white/60 rounded-xl p-4 cursor-pointer ${isSelected ? 'selected' : ''}">
+            <div class="flex justify-between items-start mb-2">
+              <h3 class="font-bold text-slate-800 text-sm leading-tight">${f.n}</h3>
+              <span class="badge-pill badge-${f.o} shrink-0 ml-2">${uiEmoji[f.o]}</span>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    function selectFood(name) {
+      const food = currentResults.find(f => f.n === name);
+      state.selectedFood = food;
+      renderFoods();
+      renderDetail(food);
+      if (window.innerWidth < 1024) {
+        document.getElementById('detailPanel').classList.remove('translate-x-full');
+      }
+    }
+
+    function renderDetail(f) {
+      document.getElementById('detailEmpty').classList.add('hidden');
+      const content = document.getElementById('detailContent');
+      content.classList.remove('hidden'); content.classList.add('flex');
+      document.getElementById('dName').textContent = f.n;
+      document.getElementById('dBadges').innerHTML = `<span class="badge-pill badge-${f.o} px-3 py-1 text-xs">Celkové hodnocení: ${uiEmoji[f.o]}</span>`;
+      
+      document.getElementById('dServes').innerHTML = f.p.map((s, idx) => `
+        <div class="bg-white/60 p-4 rounded-xl border border-white/60 shadow-sm relative mb-4">
+          <div class="flex justify-between items-start mb-3">
+             <div class="pr-8"><h4 class="text-xs font-bold uppercase text-slate-400 mb-1">⚖️ ${s.titulek}</h4><p class="text-slate-800 font-bold text-lg">${s.vaha}g</p></div>
+             <div class="badge-pill badge-${s.barva}">${uiEmoji[s.barva]}</div>
+          </div>
+          <div class="grid grid-cols-3 gap-2 mb-3">
+            ${s.cukry.map(c => `<div class="bg-slate-100/50 rounded-lg p-1 text-center"><div class="w-2 h-2 rounded-full b-${c.v} mx-auto mb-1"></div><div class="text-[9px] font-bold text-slate-500 uppercase">${c.n}</div></div>`).join('')}
+          </div>
+          ${s.info ? `<p class="text-xs italic text-slate-500 border-l-2 border-slate-200 pl-2 mb-4">${s.info}</p>` : ''}
+          <button onclick="pridejIndexNaTalir(${idx})" class="w-full py-2.5 bg-slate-900 text-white rounded-lg text-sm font-bold hover:bg-blue-600 transition-colors shadow-md">Přidat na talíř</button>
+        </div>
+      `).join('');
+    }
+
+    function pridejIndexNaTalir(idx) {
+      if (!state.selectedFood) return;
+      const s = state.selectedFood.p[idx];
+      pridejNaTalir(state.selectedFood.n, s.titulek, s.vaha);
+    }
+
+    function closeDetail() { document.getElementById('detailPanel').classList.add('translate-x-full'); state.selectedFood = null; renderFoods(); }
+
+    function pridejNaTalir(n, t, v) {
+      state.plate.push({ n, t, v });
+      updatePlateUI();
+    }
+
+    function updatePlateUI() {
+      document.getElementById('plateCount').textContent = state.plate.length;
+      document.getElementById('platePreview').textContent = state.plate.length > 0 ? state.plate.map(x => x.n).join(', ') : 'Prázdný';
+      const list = document.getElementById('plateList');
+      if (state.plate.length === 0) {
+        list.innerHTML = '<p class="text-center py-10 text-slate-400">Talíř je prázdný.</p>';
+      } else {
+        list.innerHTML = state.plate.map((x, i) => `
+          <div class="flex items-center justify-between bg-white p-3 rounded-xl shadow-sm border border-slate-100">
+            <div><h4 class="font-bold text-sm text-slate-800">${x.n}</h4><p class="text-[10px] text-slate-500">${x.t} (${x.v}g)</p></div>
+            <button onclick="smazZTalire(${i})" class="text-slate-300 hover:text-red-500 p-2">&times;</button>
+          </div>
+        `).join('');
+      }
+    }
+
+    function smazZTalire(i) { state.plate.splice(i, 1); updatePlateUI(); }
+    function clearPlate() { state.plate = []; updatePlateUI(); }
+
+    function renderFiltry() {
+      document.getElementById('seznam-filtru').innerHTML = cukryInfo.map(c => `
+        <div class="bg-white/50 p-3 rounded-xl border border-white/60 shadow-sm">
+          <div class="flex justify-between mb-2"><span class="font-bold text-sm text-slate-700">${c.nazev}</span><span class="font-bold">${uiEmoji[citlivost[c.id]]}</span></div>
+          <input type="range" min="1" max="3" value="${citlivost[c.id]}" class="w-full h-1.5 bg-slate-200 rounded-lg appearance-none accent-slate-800" 
+                 oninput="citlivost['${c.id}']=parseInt(this.value); renderFiltry(); hledej(state.query);">
+        </div>
+      `).join('');
+    }
+
+    function resetFiltru() { citlivost = { fru: 1, lak: 1, sor: 1, man: 1, gos: 1, frun: 1 }; renderFiltry(); hledej(state.query); }
+
+    function openModal(id) { document.getElementById(id).classList.add('open'); }
+    function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Diagnostické a pomocné skripty
+verify_*.py
+batch_*.py
+debug_*.py
+translate_*.py
+test_*.py
+
+# Zálohy a logy
+*.bak
+*.log
+*.tmp
