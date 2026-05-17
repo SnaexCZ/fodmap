@@ -146,6 +146,11 @@ def call_gemini(api_key, messages, system_prompt=None):
         return {"ok": False, "error": str(e)}
 
 def register(app):
+    @app.route("/")
+    def root():
+        from bottle import redirect
+        redirect("/fodmap")
+
     @app.route("/fodmap")
     @app.route("/fodmap/")
     def index():
@@ -295,5 +300,6 @@ if __name__ == "__main__":
     import bottle
     app = bottle.Bottle()
     register(app)
-    print("Spouštím lokální testovací server na http://localhost:8080/fodmap")
-    app.run(host="localhost", port=8080, debug=True)
+    port = int(os.environ.get("PORT", 8080))
+    print(f"Spouštím server na http://0.0.0.0:{port}/fodmap")
+    app.run(host="0.0.0.0", port=port, debug=True)
