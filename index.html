@@ -25,7 +25,7 @@
   </script>
   <style>
     body {
-      background: linear-gradient(135deg, #dbeafe 0%, #eff6ff 40%, #f8fafc 100%);
+      background: linear-gradient(135deg, #1E90FF 0%, #1565c0 40%, #0d47a1 100%);
       background-attachment: fixed;
       overflow: hidden;
       height: 100vh;
@@ -84,44 +84,44 @@
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
         </button>
         <div class="h-6 w-px bg-slate-200 mx-1"></div>
-        <button class="px-3 py-1.5 text-xs font-semibold bg-slate-800 text-white rounded-lg hover:bg-slate-700 transition">AI Asistent</button>
+        <button onclick="openAiAssistant()" class="px-3 py-1.5 text-xs font-semibold bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+          AI Asistent
+        </button>
       </div>
     </div>
   </header>
 
-  <main class="flex-1 overflow-hidden relative p-3 sm:p-4">
-    <div class="max-w-7xl mx-auto h-full grid grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[240px_1fr_400px] gap-4 h-full">
+  <main class="flex-1 overflow-hidden relative p-4 sm:p-6 pb-32">
+    <div class="max-w-7xl mx-auto h-full grid grid-cols-1 md:grid-cols-[220px_1fr] lg:grid-cols-[260px_1fr_420px] gap-6 h-full">
       
-      <section class="glass rounded-2xl p-3 flex flex-col h-full overflow-hidden">
-        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 px-1">Kategorie</h3>
-        <div id="catList" class="flex-1 overflow-y-auto space-y-1 pb-2 pr-1"></div>
+      <section class="glass rounded-3xl p-4 flex flex-col h-full overflow-hidden shadow-sm">
+        <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4 px-2">Kategorie</h3>
+        <div id="catList" class="flex-1 overflow-y-auto space-y-1.5 pb-4 pr-1"></div>
       </section>
 
-      <section class="glass rounded-2xl p-4 flex flex-col h-full overflow-hidden relative">
-        <div class="flex items-center justify-between mb-3">
-          <h2 id="catTitle" class="text-lg font-bold text-slate-800">Potraviny</h2>
-          <span id="foodCount" class="text-xs bg-slate-100 text-slate-500 px-2 py-1 rounded-md font-medium">0</span>
+      <section class="glass rounded-3xl p-6 flex flex-col h-full overflow-hidden relative shadow-sm">
+        <div class="flex items-center justify-between mb-5">
+          <h2 id="catTitle" class="text-xl font-bold text-slate-800">Potraviny</h2>
+          <span id="foodCount" class="text-xs bg-slate-100 text-slate-500 px-3 py-1.5 rounded-full font-bold">0</span>
         </div>
-        <div id="foodGrid" class="flex-1 overflow-y-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-3 pb-4 pr-1 content-start">
-          <div class="col-span-full flex flex-col items-center justify-center h-64 text-slate-400">
-            <div class="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-3 text-2xl">🥗</div>
-            <p class="text-sm text-center">Vyberte kategorii vlevo nebo začněte psát do vyhledávání.</p>
-          </div>
+        <div id="foodGrid" class="flex-1 overflow-y-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 pb-8 pr-1 content-start">
+          <!-- Dynamický obsah -->
         </div>
       </section>
 
-      <aside id="detailPanel" class="glass rounded-2xl p-5 flex flex-col overflow-y-auto translate-x-full lg:translate-x-0 fixed lg:relative inset-y-0 right-0 w-full lg:w-auto z-40 transition-transform duration-300 bg-slate-50 lg:bg-transparent">
-        <button onclick="closeDetail()" class="lg:hidden absolute top-4 right-4 p-2 rounded-full bg-white/50 hover:bg-white">
+      <aside id="detailPanel" class="glass rounded-3xl p-6 flex flex-col translate-x-full lg:translate-x-0 fixed lg:relative inset-y-0 right-0 w-full lg:w-auto z-40 transition-transform duration-300 bg-white/95 lg:bg-transparent shadow-xl lg:shadow-none overflow-y-auto max-h-full">
+        <button onclick="closeDetail()" class="lg:hidden absolute top-6 right-6 p-2.5 rounded-full bg-slate-100 hover:bg-slate-200">
           <svg class="w-6 h-6 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
         </button>
-        <div id="detailEmpty" class="flex-1 flex flex-col items-center justify-center text-slate-400 py-20">
-          <svg class="w-20 h-20 mb-4 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
-          <p class="text-center text-sm font-medium">Vyberte potravinu pro zobrazení detailu FODMAP složení.</p>
+        <div id="detailEmpty" class="flex-1 flex flex-col items-center justify-center text-slate-400 py-32">
+          <div class="w-20 h-20 bg-slate-100 rounded-full flex items-center justify-center mb-6 text-3xl">🔍</div>
+          <p class="text-center text-sm font-semibold max-w-[200px] leading-relaxed">Klikněte na potravinu pro zobrazení detailních informací</p>
         </div>
-        <div id="detailContent" class="hidden flex-col pr-1">
-          <h2 id="dName" class="text-2xl font-bold text-slate-900 mb-2 pr-8"></h2>
-          <div id="dBadges" class="flex gap-2 mb-6 flex-wrap"></div>
-          <div id="dServes" class="space-y-4 pb-20"></div>
+        <div id="detailContent" class="hidden flex-col">
+          <h2 id="dName" class="text-3xl font-black text-slate-900 mb-3 leading-tight"></h2>
+          <div id="dBadges" class="mb-8"></div>
+          <div id="dServes" class="space-y-6 pb-12"></div>
         </div>
       </aside>
     </div>
@@ -169,11 +169,66 @@
   </div>
 
   <div id="aiModal" class="modal-overlay fixed inset-0 z-[70] flex items-center justify-center p-4">
-    <div class="modal-content glass w-full max-w-md rounded-2xl p-8 text-center">
-      <div class="w-16 h-16 mx-auto bg-blue-600 rounded-full flex items-center justify-center text-white mb-4 text-2xl">🤖</div>
-      <h2 class="text-xl font-bold mb-2">AI Analýza Talíře</h2>
-      <p class="text-sm text-slate-500 mb-6">Tato funkce je v přípravě. Brzy bude umělá inteligence schopna analyzovat celkovou nálož FODMAP na vašem talíři.</p>
-      <button onclick="closeModal('aiModal')" class="px-8 py-2 bg-slate-800 text-white rounded-lg">Rozumím</button>
+    <div class="modal-content glass w-full max-w-2xl rounded-2xl flex flex-col bg-white/90" style="height: 80vh; max-height: 700px;">
+      <div class="p-4 border-b border-slate-200 flex items-center justify-between flex-none">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold shadow">AI</div>
+          <div>
+            <h2 class="text-base font-bold text-slate-800">FODMAP AI Asistent</h2>
+            <p class="text-[10px] text-slate-400" id="aiStatusText">Nastavte API klíč pro aktivaci</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="openModal('settingsModal'); closeModal('aiModal')" class="p-2 rounded-lg hover:bg-slate-100 text-slate-500" title="Nastavení API klíče">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          </button>
+          <button onclick="closeModal('aiModal')" class="p-1.5 hover:bg-slate-100 rounded-full text-slate-500">&times;</button>
+        </div>
+      </div>
+      <div id="chatMessages" class="flex-1 overflow-y-auto p-4 space-y-4">
+        <div class="flex gap-3">
+          <div class="w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold flex-none">AI</div>
+          <div class="bg-slate-100 rounded-2xl rounded-tl-sm px-4 py-3 max-w-[80%]">
+            <p class="text-sm text-slate-700">Ahoj! Jsem váš FODMAP asistent. Mohu zkontrolovat váš talíř nebo odpovědět na otázky o potravinách. Všechny moje odpovědi jsou založeny na databázi Monash University.</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-3 border-t border-slate-200 flex-none">
+        <div class="flex gap-2 mb-2">
+          <button onclick="checkPlateWithAi()" id="checkPlateBtn" class="px-3 py-1 text-xs font-semibold bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition">🍽️ Zkontrolovat talíř</button>
+        </div>
+        <div class="flex gap-2">
+          <input type="text" id="chatInput" placeholder="Zeptejte se na potraviny..." onkeydown="if(event.key==='Enter')sendChatMessage()"
+                 class="flex-1 px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-400">
+          <button onclick="sendChatMessage()" id="chatSendBtn" class="px-4 py-2.5 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition font-semibold text-sm">Odeslat</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="settingsModal" class="modal-overlay fixed inset-0 z-[80] flex items-center justify-center p-4">
+    <div class="modal-content glass w-full max-w-md rounded-2xl p-6 bg-white/95">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-lg font-bold text-slate-800">🔑 Nastavení API klíče</h2>
+        <button onclick="closeModal('settingsModal')" class="p-1 hover:bg-slate-100 rounded-full">&times;</button>
+      </div>
+      <p class="text-xs text-slate-500 mb-4">Zadejte svůj Gemini API klíč. Klíč je uložen pouze ve vašem prohlížeči (localStorage).</p>
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs font-semibold text-slate-600 mb-1 block">Gemini API klíč</label>
+          <div class="flex gap-2">
+            <input type="password" id="apiKeyInput" placeholder="AIza..." class="flex-1 px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <button onclick="toggleApiKeyVisibility()" class="px-3 py-2 bg-slate-100 rounded-xl hover:bg-slate-200 transition">
+              <svg id="eyeIcon" class="w-5 h-5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+            </button>
+          </div>
+        </div>
+        <div id="apiKeyStatus" class="hidden text-xs px-3 py-2 rounded-lg"></div>
+        <div class="flex gap-3">
+          <button onclick="validateApiKey()" id="validateKeyBtn" class="flex-1 py-2.5 border border-slate-300 rounded-xl text-slate-600 font-medium hover:bg-slate-50 transition">Ověřit klíč</button>
+          <button onclick="saveApiKey()" class="flex-1 py-2.5 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition">Uložit</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -196,6 +251,11 @@
       await nactiKategorie();
       renderFiltry();
       updatePlateUI();
+      const savedKey = localStorage.getItem('fodmap_gemini_api_key');
+      if (savedKey) {
+        apiKey = savedKey;
+        document.getElementById('apiKeyInput').value = savedKey;
+      }
     }
 
     async function nactiKategorie() {
@@ -234,17 +294,14 @@
       const grid = document.getElementById('foodGrid');
       document.getElementById('foodCount').textContent = currentResults.length;
       if (currentResults.length === 0) {
-        grid.innerHTML = '<div class="col-span-full py-10 text-center text-slate-400">Nic nenalezeno.</div>';
+        grid.innerHTML = '<div class="col-span-full py-10 text-center text-slate-400 font-medium">Nebylo nalezeno nic, co by odpovídalo filtrům.</div>';
         return;
       }
       grid.innerHTML = currentResults.map(f => {
         const isSelected = state.selectedFood && state.selectedFood.n === f.n;
         return `
-          <div onclick="selectFood('${f.n}')" class="food-card bg-white/60 border border-white/60 rounded-xl p-4 cursor-pointer ${isSelected ? 'selected' : ''}">
-            <div class="flex justify-between items-start mb-2">
-              <h3 class="font-bold text-slate-800 text-sm leading-tight">${f.n}</h3>
-              <span class="badge-pill badge-${f.o} shrink-0 ml-2">${uiEmoji[f.o]}</span>
-            </div>
+          <div onclick="selectFood('${f.n.replace(/'/g, "\\'")}')" class="food-card bg-white/40 border border-white/20 rounded-2xl p-5 cursor-pointer shadow-sm ${isSelected ? 'selected ring-2 ring-blue-500' : ''}">
+            <h3 class="font-bold text-slate-800 text-base leading-snug">${f.n}</h3>
           </div>`;
       }).join('');
     }
@@ -259,6 +316,41 @@
       }
     }
 
+    function formatZlomky(text) {
+      if (!text) return '';
+      return text
+        .replace(/(\d)½/g, '$1.5')
+        .replace(/(\d)¼/g, '$1.25')
+        .replace(/(\d)¾/g, '$1.75')
+        .replace(/(\d)⅓/g, '$1.33')
+        .replace(/(\d)⅔/g, '$1.67')
+        .replace(/(\d)⅕/g, '$1.2')
+        .replace(/(\d)⅖/g, '$1.4')
+        .replace(/(\d)⅗/g, '$1.6')
+        .replace(/(\d)⅘/g, '$1.8')
+        .replace(/(\d)⅙/g, '$1.17')
+        .replace(/(\d)⅚/g, '$1.83')
+        .replace(/(\d)⅛/g, '$1.125')
+        .replace(/(\d)⅜/g, '$1.375')
+        .replace(/(\d)⅝/g, '$1.625')
+        .replace(/(\d)⅞/g, '$1.875')
+        .replace(/½/g, '0.5')
+        .replace(/¼/g, '0.25')
+        .replace(/¾/g, '0.75')
+        .replace(/⅓/g, '0.33')
+        .replace(/⅔/g, '0.67')
+        .replace(/⅕/g, '0.2')
+        .replace(/⅖/g, '0.4')
+        .replace(/⅗/g, '0.6')
+        .replace(/⅘/g, '0.8')
+        .replace(/⅙/g, '0.17')
+        .replace(/⅚/g, '0.83')
+        .replace(/⅛/g, '0.125')
+        .replace(/⅜/g, '0.375')
+        .replace(/⅝/g, '0.625')
+        .replace(/⅞/g, '0.875');
+    }
+
     function renderDetail(f) {
       document.getElementById('detailEmpty').classList.add('hidden');
       const content = document.getElementById('detailContent');
@@ -269,13 +361,13 @@
       document.getElementById('dServes').innerHTML = f.p.map((s, idx) => `
         <div class="bg-white/60 p-4 rounded-xl border border-white/60 shadow-sm relative mb-4">
           <div class="flex justify-between items-start mb-3">
-             <div class="pr-8"><h4 class="text-xs font-bold uppercase text-slate-400 mb-1">⚖️ ${s.titulek}</h4><p class="text-slate-800 font-bold text-lg">${s.vaha}g</p></div>
+              <div class="pr-8"><h4 class="text-xs font-bold uppercase text-slate-900 mb-1">⚖️ ${formatZlomky(s.titulek)}</h4><p class="text-slate-900 font-bold text-lg">${s.vaha}g</p></div>
              <div class="badge-pill badge-${s.barva}">${uiEmoji[s.barva]}</div>
           </div>
           <div class="grid grid-cols-3 gap-2 mb-3">
             ${s.cukry.map(c => `<div class="bg-slate-100/50 rounded-lg p-1 text-center"><div class="w-2 h-2 rounded-full b-${c.v} mx-auto mb-1"></div><div class="text-[9px] font-bold text-slate-500 uppercase">${c.n}</div></div>`).join('')}
           </div>
-          ${s.info ? `<p class="text-xs italic text-slate-500 border-l-2 border-slate-200 pl-2 mb-4">${s.info}</p>` : ''}
+          ${s.info ? `<p class="text-xs italic text-slate-800 border-l-2 border-slate-200 pl-2 mb-4">${formatZlomky(s.info)}</p>` : ''}
           <button onclick="pridejIndexNaTalir(${idx})" class="w-full py-2.5 bg-slate-900 text-white rounded-lg text-sm font-bold hover:bg-blue-600 transition-colors shadow-md">Přidat na talíř</button>
         </div>
       `).join('');
@@ -303,7 +395,7 @@
       } else {
         list.innerHTML = state.plate.map((x, i) => `
           <div class="flex items-center justify-between bg-white p-3 rounded-xl shadow-sm border border-slate-100">
-            <div><h4 class="font-bold text-sm text-slate-800">${x.n}</h4><p class="text-[10px] text-slate-500">${x.t} (${x.v}g)</p></div>
+            <div><h4 class="font-bold text-sm text-slate-800">${x.n}</h4><p class="text-[10px] text-slate-700">${formatZlomky(x.t)} (${x.v}g)</p></div>
             <button onclick="smazZTalire(${i})" class="text-slate-300 hover:text-red-500 p-2">&times;</button>
           </div>
         `).join('');
@@ -325,8 +417,223 @@
 
     function resetFiltru() { citlivost = { fru: 1, lak: 1, sor: 1, man: 1, gos: 1, frun: 1 }; renderFiltry(); hledej(state.query); }
 
-    function openModal(id) { document.getElementById(id).classList.add('open'); }
+    function openModal(id) {
+      if (id === 'settingsModal') {
+        const savedKey = localStorage.getItem('fodmap_gemini_api_key');
+        if (savedKey) document.getElementById('apiKeyInput').value = savedKey;
+        document.getElementById('apiKeyStatus').classList.add('hidden');
+      }
+      document.getElementById(id).classList.add('open');
+    }
     function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+    let chatHistory = [];
+    let apiKey = localStorage.getItem('fodmap_gemini_api_key') || '';
+    let isProcessing = false;
+
+    function getApiKey() {
+      return apiKey || localStorage.getItem('fodmap_gemini_api_key') || '';
+    }
+
+    function openAiAssistant() {
+      if (!getApiKey()) {
+        openModal('settingsModal');
+        return;
+      }
+      openModal('aiModal');
+      updateAiStatus();
+    }
+
+    function updateAiStatus() {
+      const el = document.getElementById('aiStatusText');
+      const key = getApiKey();
+      if (key) {
+        el.textContent = 'API klíč nastaven';
+        el.className = 'text-[10px] text-green-500 font-medium';
+      } else {
+        el.textContent = 'Nastavte API klíč pro aktivaci';
+        el.className = 'text-[10px] text-slate-400';
+      }
+    }
+
+    function toggleApiKeyVisibility() {
+      const input = document.getElementById('apiKeyInput');
+      input.type = input.type === 'password' ? 'text' : 'password';
+    }
+
+    function saveApiKey() {
+      const input = document.getElementById('apiKeyInput');
+      const key = input.value.trim();
+      if (key) {
+        apiKey = key;
+        localStorage.setItem('fodmap_gemini_api_key', key);
+        showApiKeyStatus('API klíč uložen!', 'success');
+        updateAiStatus();
+      }
+    }
+
+    async function validateApiKey() {
+      const key = document.getElementById('apiKeyInput').value.trim() || getApiKey();
+      if (!key) {
+        showApiKeyStatus('Zadejte API klíč', 'error');
+        return;
+      }
+      const btn = document.getElementById('validateKeyBtn');
+      btn.textContent = 'Ověřuji...';
+      btn.disabled = true;
+      try {
+        const res = await fetch('/fodmap/api/gemini/validate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ apiKey: key })
+        });
+        const data = await res.json();
+        if (data.ok) {
+          showApiKeyStatus('API klíč je platný!', 'success');
+          apiKey = key;
+          localStorage.setItem('fodmap_gemini_api_key', key);
+          updateAiStatus();
+        } else {
+          showApiKeyStatus(formatErrorMessage(data.error || ''), 'error');
+        }
+      } catch (e) {
+        showApiKeyStatus('Chyba připojení: ' + e.message, 'error');
+      }
+      btn.textContent = 'Ověřit klíč';
+      btn.disabled = false;
+    }
+
+    function showApiKeyStatus(msg, type) {
+      const el = document.getElementById('apiKeyStatus');
+      el.classList.remove('hidden');
+      el.textContent = msg;
+      el.className = 'text-xs px-3 py-2 rounded-lg ' + (type === 'success' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700');
+    }
+
+    function addChatMessage(role, text) {
+      const container = document.getElementById('chatMessages');
+      const div = document.createElement('div');
+      div.className = 'flex gap-3' + (role === 'user' ? ' flex-row-reverse' : '');
+      const avatar = role === 'user'
+        ? '<div class="w-7 h-7 rounded-full bg-slate-600 text-white flex items-center justify-center text-xs font-bold flex-none">Vy</div>'
+        : '<div class="w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold flex-none">AI</div>';
+      const bubble = role === 'user'
+        ? '<div class="bg-blue-600 text-white rounded-2xl rounded-tr-sm px-4 py-3 max-w-[80%]"><p class="text-sm whitespace-pre-wrap">' + escapeHtml(text) + '</p></div>'
+        : '<div class="bg-slate-100 rounded-2xl rounded-tl-sm px-4 py-3 max-w-[80%]"><p class="text-sm text-slate-700 whitespace-pre-wrap">' + escapeHtml(text) + '</p></div>';
+      div.innerHTML = avatar + bubble;
+      container.appendChild(div);
+      container.scrollTop = container.scrollHeight;
+    }
+
+    function addLoadingMessage() {
+      const container = document.getElementById('chatMessages');
+      const div = document.createElement('div');
+      div.id = 'loadingMsg';
+      div.className = 'flex gap-3';
+      div.innerHTML = '<div class="w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold flex-none">AI</div><div class="bg-slate-100 rounded-2xl rounded-tl-sm px-4 py-3"><div class="flex gap-1.5"><div class="w-2 h-2 bg-slate-400 rounded-full animate-bounce"></div><div class="w-2 h-2 bg-slate-400 rounded-full animate-bounce" style="animation-delay:0.1s"></div><div class="w-2 h-2 bg-slate-400 rounded-full animate-bounce" style="animation-delay:0.2s"></div></div></div>';
+      container.appendChild(div);
+      container.scrollTop = container.scrollHeight;
+    }
+
+    function removeLoadingMessage() {
+      const el = document.getElementById('loadingMsg');
+      if (el) el.remove();
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function formatErrorMessage(msg) {
+      if (msg.startsWith('QUOTA_EXCEEDED:')) {
+        return '⚠️ Vyčerpaná denní kvóta Gemini API (free tier).\n\nMožnosti:\n• Zkontrolujte billing na aistudio.google.com\n• Přidejte platební metodu pro vyšší limity\n• Zkuste znovu zítra až se kvóta obnoví';
+      }
+      if (msg.startsWith('AUTH_ERROR:')) {
+        return '🔑 Neplatný API klíč. Zkontrolujte jej v nastavení (⚙️).';
+      }
+      if (msg.startsWith('ACCESS_DENIED:')) {
+        return '🚫 API klíč nemá oprávnění. Aktivujte Gemini API v Google AI Studio.';
+      }
+      return 'Chyba: ' + msg;
+    }
+
+    async function sendChatMessage() {
+      const input = document.getElementById('chatInput');
+      const msg = input.value.trim();
+      if (!msg || isProcessing) return;
+      const key = getApiKey();
+      if (!key) {
+        openModal('settingsModal');
+        return;
+      }
+      input.value = '';
+      addChatMessage('user', msg);
+      isProcessing = true;
+      document.getElementById('chatSendBtn').disabled = true;
+      addLoadingMessage();
+      try {
+        const res = await fetch('/fodmap/api/gemini/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ apiKey: key, messages: chatHistory, question: msg })
+        });
+        const data = await res.json();
+        removeLoadingMessage();
+        if (data.ok) {
+          addChatMessage('assistant', data.text);
+          chatHistory.push({ role: 'user', content: msg });
+          chatHistory.push({ role: 'assistant', content: data.text });
+          if (chatHistory.length > 20) chatHistory = chatHistory.slice(-16);
+        } else {
+          addChatMessage('assistant', formatErrorMessage(data.error || 'Nepodařilo se získat odpověď'));
+        }
+      } catch (e) {
+        removeLoadingMessage();
+        addChatMessage('assistant', 'Chyba připojení: ' + e.message);
+      }
+      isProcessing = false;
+      document.getElementById('chatSendBtn').disabled = false;
+    }
+
+    async function checkPlateWithAi() {
+      const key = getApiKey();
+      if (!key) {
+        openModal('settingsModal');
+        return;
+      }
+      if (state.plate.length === 0) {
+        addChatMessage('assistant', 'Talíř je prázdný. Přidejte nejprve nějaké potraviny.');
+        return;
+      }
+      const plateInfo = state.plate.map(x => `${x.n} (${formatZlomky(x.t)}, ${x.v}g)`).join(', ');
+      addChatMessage('user', 'Zkontroluj můj talíř: ' + plateInfo);
+      isProcessing = true;
+      document.getElementById('chatSendBtn').disabled = true;
+      addLoadingMessage();
+      try {
+        const res = await fetch('/fodmap/api/gemini/check', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ apiKey: key, plate: state.plate })
+        });
+        const data = await res.json();
+        removeLoadingMessage();
+        if (data.ok) {
+          addChatMessage('assistant', data.text);
+          chatHistory.push({ role: 'user', content: 'Zkontroluj můj talíř: ' + plateInfo });
+          chatHistory.push({ role: 'assistant', content: data.text });
+        } else {
+          addChatMessage('assistant', formatErrorMessage(data.error || 'Nepodařilo se zkontrolovat talíř'));
+        }
+      } catch (e) {
+        removeLoadingMessage();
+        addChatMessage('assistant', 'Chyba připojení: ' + e.message);
+      }
+      isProcessing = false;
+      document.getElementById('chatSendBtn').disabled = false;
+    }
 
     init();
   </script>
